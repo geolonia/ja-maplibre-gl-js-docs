@@ -423,8 +423,8 @@ function FooterLegalStrip(props) {
     className: props.className
   }, React.createElement("a", {
     className: "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
-    href: "https://maplibre.org/"
-  }, "MapLibre"));
+    href: "https://geolonia.com/"
+  }, "©️Geolonia"));
 }
 
 FooterLegalStrip.propTypes = {
