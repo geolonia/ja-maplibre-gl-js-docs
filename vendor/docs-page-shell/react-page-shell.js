@@ -425,7 +425,7 @@ function FooterLegalStrip(props) {
     className: "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
     href: "https://geolonia.com/"
   }, "©️Geolonia"));
-} sta
+}
 
 FooterLegalStrip.propTypes = {
   className: PropTypes.string
