@@ -1,357 +1,357 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/api</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/examples</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/examples</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/overview</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/overview</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/plugins</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/plugins</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/style-spec</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/events</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/api/events</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/geography</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/api/geography</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/handlers</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/api/handlers</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/map</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/api/map</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/markers</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/api/markers</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/properties</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/api/properties</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/sources</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/api/sources</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/3d-buildings</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/3d-buildings</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/3d-extrusion-floorplan</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/3d-extrusion-floorplan</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-3d-model</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/add-3d-model</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-a-marker</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/add-a-marker</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-image</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/add-image</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-image-animated</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/add-image-animated</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-image-generated</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/add-image-generated</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-image-missing-generated</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/add-image-missing-generated</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-image-stretchable</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/add-image-stretchable</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/animate-a-line</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/animate-a-line</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/animate-camera-around-point</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/animate-camera-around-point</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/animate-images</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/animate-images</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/animate-marker</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/animate-marker</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/animate-point-along-line</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/animate-point-along-line</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/animate-point-along-route</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/animate-point-along-route</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/attribution-position</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/attribution-position</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/camera-animation</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/camera-animation</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/canvas-source</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/canvas-source</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/center-on-symbol</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/center-on-symbol</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/change-building-color-based-on-zoom-level</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/change-building-color-based-on-zoom-level</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/change-case-of-labels</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/change-case-of-labels</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/check-for-support</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/check-for-support</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/cluster</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/cluster</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/cluster-html</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/cluster-html</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/color-switcher</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/color-switcher</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/custom-marker-icons</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/custom-marker-icons</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/custom-style-layer</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/custom-style-layer</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/data-driven-lines</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/data-driven-lines</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/disable-rotation</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/disable-rotation</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/disable-scroll-zoom</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/disable-scroll-zoom</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/display-and-style-rich-text-labels</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/display-and-style-rich-text-labels</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/drag-a-marker</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/drag-a-marker</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/drag-a-point</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/drag-a-point</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/fallback-image</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/fallback-image</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/featuresat</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/featuresat</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/fill-pattern</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/fill-pattern</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/filter-markers</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/filter-markers</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/filter-markers-by-input</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/filter-markers-by-input</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/fitbounds</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/fitbounds</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/flyto</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/flyto</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/flyto-options</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/flyto-options</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/fullscreen</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/fullscreen</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/game-controls</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/game-controls</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/geocoder</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/geocoder</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/geojson-layer-in-stack</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/geojson-layer-in-stack</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/geojson-line</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/geojson-line</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/geojson-markers</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/geojson-markers</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/geojson-polygon</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/geojson-polygon</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/heatmap</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/heatmap</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/heatmap-layer</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/heatmap-layer</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/hover-styles</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/hover-styles</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/interactive-false</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/interactive-false</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/jump-to</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/jump-to</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/language-switch</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/language-switch</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/line-across-180th-meridian</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/line-across-180th-meridian</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/line-gradient</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/line-gradient</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/live-geojson</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/live-geojson</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/live-update-feature</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/live-update-feature</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/local-geojson</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/local-geojson</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/local-geojson-experimental</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/local-geojson-experimental</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/local-ideographs</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/local-ideographs</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/locate-user</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/locate-user</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/map-tiles</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/map-tiles</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/mapbox-gl-draw</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/mapbox-gl-draw</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/mapbox-gl-rtl-text</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/mapbox-gl-rtl-text</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/mapbox-gl-supported</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/mapbox-gl-supported</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/marker-popup</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/marker-popup</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/measure</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/measure</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/mouse-position</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/mouse-position</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/multiple-geometries</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/multiple-geometries</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/navigation</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/navigation</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/offset-vanishing-point-with-padding</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/offset-vanishing-point-with-padding</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/polygon-popup-on-click</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/polygon-popup-on-click</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/popup</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/popup</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/popup-on-click</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/popup-on-click</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/popup-on-hover</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/popup-on-hover</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/queryrenderedfeatures</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/queryrenderedfeatures</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/render-world-copies</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/render-world-copies</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/restrict-bounds</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/restrict-bounds</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/satellite-map</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/satellite-map</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/scroll-fly-to</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/scroll-fly-to</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/set-perspective</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/set-perspective</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/set-popup</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/set-popup</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/simple-map</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/simple-map</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/third-party</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/third-party</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/timeline-animation</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/timeline-animation</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/toggle-interaction-handlers</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/toggle-interaction-handlers</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/using-featuresin</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/using-featuresin</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/variable-label-placement</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/variable-label-placement</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/vector-source</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/vector-source</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/video-on-a-map</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/video-on-a-map</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/visualize-population-density</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/visualize-population-density</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/wms</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/wms</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/zoomto-linestring</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/example/zoomto-linestring</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec/expressions</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/style-spec/expressions</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec/glyphs</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/style-spec/glyphs</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec/layers</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/style-spec/layers</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec/light</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/style-spec/light</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec/other</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/style-spec/other</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec/root</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/style-spec/root</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec/sources</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/style-spec/sources</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec/sprite</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/style-spec/sprite</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec/transition</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/style-spec/transition</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec/types</loc>
+        <loc>https://geolonia.github.io/ja-maplibre-gl-js-docs/ja-maplibre-gl-js-docs/style-spec/types</loc>
     </url>
 </urlset>
