@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Transition
 id: transition
 description: A transition property controls timing for the interpolation between a transitionable style property's previous value and new value.
@@ -34,12 +34,12 @@ Any transitionable layer property, marked by {{<Icon
     null,
     2
 )}}
-```
+``` -->
 <!--
 START GENERATED CONTENT:
 Content in this section is generated directly using the MapLibre Style
 Specification. To update any content displayed in this section, make edits to:
 https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/reference/v8.json.
 -->
-{{<Items headingLevel='2' entry={ref.transition} />}}
+<!-- {{<Items headingLevel='2' entry={ref.transition} />}} -->
 <!-- END GENERATED CONTENT -->

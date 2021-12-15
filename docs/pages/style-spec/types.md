@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Types
 id: types
 description: A MapLibre style contains values of various types, most commonly as values for the style properties of a layer.
@@ -100,4 +100,4 @@ Arrays are comma-separated lists of one or more numbers in a specific order. For
 {
     "circle-color": ["in", 1, ["literal", [1, 2, 3]]]
 }
-```
+``` -->

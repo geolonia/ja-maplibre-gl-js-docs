@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Plugins
 description: Extend your MapLibre GL JS map with plugins.
 contentType: example
@@ -13,6 +13,6 @@ prependJs:
 - "import Plugins from '../../components/plugins-page';"
 ---
 
-Most plugins are designed to work with Mapbox GL JS, but should also work with MapLibre GL JS. 
+Most plugins are designed to work with Mapbox GL JS, but should also work with MapLibre GL JS.
 
-{{<Plugins />}}
+{{<Plugins />}} -->

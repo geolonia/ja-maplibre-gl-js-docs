@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Other
 id: other
 description: The value for any layout or paint property may be specified as a function.
@@ -15,7 +15,7 @@ prependJs:
     - "import Property from '../../components/style-spec/property.js';"
     - "import Subtitle from '../../components/style-spec/subtitle.js';"
     - "import Note from '@mapbox/dr-ui/note';"
----
+--- -->
 
 <!--copyeditor disable basic-->
 <!--copyeditor disable js-->
@@ -23,7 +23,7 @@ prependJs:
 <!--copyeditor disable macos-->
 <!--copyeditor disable all-of-->
 
-Some style properties are no longer the preferred method of accomplishing a particular styling goal. While they are still supported, they will eventually be removed from the MapLibre Style Specification and it is not recommended to use them in new styles. The following is provided as reference for users who need to continue maintaining legacy styles while transitioning to preferred style properties.
+<!-- Some style properties are no longer the preferred method of accomplishing a particular styling goal. While they are still supported, they will eventually be removed from the MapLibre Style Specification and it is not recommended to use them in new styles. The following is provided as reference for users who need to continue maintaining legacy styles while transitioning to preferred style properties.
 
 
 ## Function
@@ -139,10 +139,10 @@ If no default is provided, the style property's default is used in these circums
 
 {{<Subtitle>}}
 Optional [string](/maplibre-gl-js-docs/style-spec/types/#string). One of `"rgb"`, `"lab"`, `"hcl"`.
-{{</Subtitle>}}
+{{</Subtitle>}} -->
 
 <!--copyeditor ignore easily-->
-The color space in which colors interpolated. Interpolating colors in perceptual color spaces like LAB and HCL tend to produce color ramps that look more consistent and produce colors that can be differentiated more easily than those interpolated in RGB space.
+<!-- The color space in which colors interpolated. Interpolating colors in perceptual color spaces like LAB and HCL tend to produce color ramps that look more consistent and produce colors that can be differentiated more easily than those interpolated in RGB space.
 
 {{
 <dl className="mb12">
@@ -337,10 +337,10 @@ A <var>key</var> must be a string that identifies a feature property, or one of 
 
 A <var>value</var> (and <var>v0</var>, ..., <var>vn</var> for set operators) must be a [string](/maplibre-gl-js-docs/style-spec/types/#string), [number](/maplibre-gl-js-docs/style-spec/types/#number), or [boolean](/maplibre-gl-js-docs/style-spec/types/#boolean) to compare the property value against.
 
-Set membership filters are a compact and efficient way to test whether a field matches any of multiple values.
+Set membership filters are a compact and efficient way to test whether a field matches any of multiple values. -->
 
 <!--copyeditor ignore evaluate-->
-The comparison and set membership filters implement strictly-typed comparisons; for example, all of the following evaluate to false: `0 &lt; "1"`, `2 == "2"`, `"true" in [true, false]`.
+<!-- The comparison and set membership filters implement strictly-typed comparisons; for example, all of the following evaluate to false: `0 &lt; "1"`, `2 == "2"`, `"true" in [true, false]`.
 
 The `"all"`, `"any"`, and `"none"` filter operators are used to create compound filters. The values <var>f0</var>, ..., <var>fn</var> must be filter expressions themselves.
 
@@ -382,4 +382,4 @@ The combining filter "all" takes the three other filters that follow it and requ
         }
     }}
 />
-}}
+}} -->

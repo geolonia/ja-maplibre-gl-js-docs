@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Examples
 description: Code examples for MapLibre GL JS.
 contentType: example
@@ -13,4 +13,4 @@ showFilters:
 - search
 products:
 - MapLibre GL JS
----
+--- -->

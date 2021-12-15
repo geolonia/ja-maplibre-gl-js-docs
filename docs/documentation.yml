@@ -4,28 +4,28 @@ toc:
     children:
       - Map
 
-  - name: Properties and options
-    page: 'properties'
-    description: |
-      MapLibre GL JS's global properties and options that you can access while initializing your map or accessing information about its status.
-    children:
-      - accessToken
-      - baseApiUrl
-      - workerCount
-      - maxParallelImageRequests
-      - supported
-      - version
-      - setRTLTextPlugin
-      - getRTLTextPluginStatus
-      - clearStorage
-      - AnimationOptions
-      - CameraOptions
-      - PaddingOptions
-      - RequestParameters
-      - StyleImageInterface
-      - CustomLayerInterface
-      - prewarm
-      - clearPrewarmedResources
+  # - name: Properties and options
+  #   page: 'properties'
+  #   description: |
+  #     MapLibre GL JS's global properties and options that you can access while initializing your map or accessing information about its status.
+  #   children:
+  #     - accessToken
+  #     - baseApiUrl
+  #     - workerCount
+  #     - maxParallelImageRequests
+  #     - supported
+  #     - version
+  #     - setRTLTextPlugin
+  #     - getRTLTextPluginStatus
+  #     - clearStorage
+  #     - AnimationOptions
+  #     - CameraOptions
+  #     - PaddingOptions
+  #     - RequestParameters
+  #     - StyleImageInterface
+  #     - CustomLayerInterface
+  #     - prewarm
+  #     - clearPrewarmedResources
 
   - name: Markers and controls
     page: 'markers'
@@ -41,33 +41,33 @@ toc:
       - ScaleControl
       - FullscreenControl
 
-  - name: Geography and geometry
-    page: 'geography'
-    description: |
-      General utilities and types that relate to working with and manipulating geographic information or geometries.
-    children:
-      - LngLat
-      - LngLatLike
-      - LngLatBounds
-      - LngLatBoundsLike
-      - Point
-      - PointLike
-      - MercatorCoordinate
-      - EdgeInsets
+  # - name: Geography and geometry
+  #   page: 'geography'
+  #   description: |
+  #     General utilities and types that relate to working with and manipulating geographic information or geometries.
+  #   children:
+  #     - LngLat
+  #     - LngLatLike
+  #     - LngLatBounds
+  #     - LngLatBoundsLike
+  #     - Point
+  #     - PointLike
+  #     - MercatorCoordinate
+  #     - EdgeInsets
 
-  - name: User interaction handlers
-    page: 'handlers'
-    description: |
-      Items related to the ways in which the map responds to user input.
-    children:
-      - BoxZoomHandler
-      - ScrollZoomHandler
-      - DragPanHandler
-      - DragRotateHandler
-      - KeyboardHandler
-      - DoubleClickZoomHandler
-      - TouchZoomRotateHandler
-      - TouchPitchHandler
+  # - name: User interaction handlers
+  #   page: 'handlers'
+  #   description: |
+  #     Items related to the ways in which the map responds to user input.
+  #   children:
+  #     - BoxZoomHandler
+  #     - ScrollZoomHandler
+  #     - DragPanHandler
+  #     - DragRotateHandler
+  #     - KeyboardHandler
+  #     - DoubleClickZoomHandler
+  #     - TouchZoomRotateHandler
+  #     - TouchPitchHandler
 
   - name: Sources
     page: 'sources'
