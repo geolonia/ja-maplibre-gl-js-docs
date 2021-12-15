@@ -62,11 +62,11 @@ module.exports = [
     //     path: '/maplibre-gl-js-docs/api/handlers/',
     //     subnav: buldSubNav('User interaction handlers')
     // },
-    {
-        title: 'Sources',
-        path: '/maplibre-gl-js-docs/api/sources/',
-        subnav: buldSubNav('Sources')
-    },
+    // {
+    //     title: 'Sources',
+    //     path: '/maplibre-gl-js-docs/api/sources/',
+    //     subnav: buldSubNav('Sources')
+    // },
     {
         title: 'Events',
         path: '/maplibre-gl-js-docs/api/events/',

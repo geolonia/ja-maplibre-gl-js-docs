@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Sources
 id: sources
 description: Sources supply data to be shown on the map.
@@ -13,13 +13,13 @@ prependJs:
     - "import { sourceTypes } from '../../data/types';"
     - "import SDKSupportTable from '../../components/sdk_support_table';"
     - "import ref from '@maplibre/maplibre-gl-style-spec/reference/latest';"
----
+--- -->
 
 <!--copyeditor disable basic-->
 <!--copyeditor disable js-->
 <!--copyeditor disable ios-->
 <!--copyeditor disable macos-->
-Sources state which data the map should display. Specify the type of source with the `"type"` property, which must be one of {{sourceTypes.map((t, i) => {
+<!-- Sources state which data the map should display. Specify the type of source with the `"type"` property, which must be one of {{sourceTypes.map((t, i) => {
     return <var key={i}>{t}</var>;
 }).reduce((prev, curr) => {
     return [prev, ', ', curr]
@@ -71,7 +71,7 @@ A vector tile source. Tiles must be in [Mapbox Vector Tile format](https://docs.
     "type": "vector",
     "url": "mapbox://mapbox.mapbox-streets-v6"
 }
-```
+``` -->
 
 <!--
 START GENERATED CONTENT:
@@ -79,9 +79,9 @@ Content in this section is generated directly using the MapLibre Style
 Specification. To update any content displayed in this section, make edits to:
 https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/reference/v8.json.
 -->
-{{<Items headingLevel='3' entry={ref.source_vector} section="vector" />}}
+<!-- {{<Items headingLevel='3' entry={ref.source_vector} section="vector" />}} -->
 <!-- END GENERATED CONTENT -->
-
+<!--
 
 {{
 <SDKSupportTable
@@ -108,7 +108,7 @@ A raster tile source. For raster tiles hosted by Mapbox, the `"url"` value shoul
     "url": "mapbox://mapbox.satellite",
     "tileSize": 256
 }
-```
+``` -->
 
 <!--
 START GENERATED CONTENT:
@@ -116,10 +116,10 @@ Content in this section is generated directly using the MapLibre Style
 Specification. To update any content displayed in this section, make edits to:
 https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/reference/v8.json.
 -->
-{{<Items headingLevel='3' entry={ref.source_raster} section="raster" />}}
+<!-- {{<Items headingLevel='3' entry={ref.source_raster} section="raster" />}} -->
 <!-- END GENERATED CONTENT -->
 
-{{
+<!-- {{
 <SDKSupportTable
     supportItems={{
         'basic functionality': {
@@ -143,7 +143,7 @@ A raster DEM source. Only supports [Mapbox Terrain RGB](https://blog.mapbox.com/
     "type": "raster-dem",
     "url": "mapbox://mapbox.terrain-rgb"
 }
-```
+``` -->
 
 <!--
 START GENERATED CONTENT:
@@ -151,10 +151,10 @@ Content in this section is generated directly using the MapLibre Style
 Specification. To update any content displayed in this section, make edits to:
 https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/reference/v8.json.
 -->
-{{<Items headingLevel='3' entry={ref.source_raster_dem} section="raster-dem" />}}
+<!-- {{<Items headingLevel='3' entry={ref.source_raster_dem} section="raster-dem" />}} -->
 <!-- END GENERATED CONTENT -->
 
-{{
+<!-- {{
 <SDKSupportTable
     supportItems={{
         'basic functionality': {
@@ -162,11 +162,11 @@ https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/reference/v8
         }
     }}
 />
-}}
+}} -->
 
 <!-- copyeditor disable geojson -->
 
-## geojson
+<!-- ## geojson
 
 A [GeoJSON](http://geojson.org/) source. Data must be provided via a `"data"` property, whose value can be a URL or inline GeoJSON.
 
@@ -194,16 +194,16 @@ This example of a GeoJSON source refers to an external GeoJSON document via its 
     "type": "geojson",
     "data": "./lines.geojson"
 }
-```
+``` -->
 <!--
 START GENERATED CONTENT:
 Content in this section is generated directly using the MapLibre Style
 Specification. To update any content displayed in this section, make edits to:
 https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/reference/v8.json.
 -->
-{{<Items headingLevel='3' entry={ref.source_geojson} section="geojson" />}}
+<!-- {{<Items headingLevel='3' entry={ref.source_geojson} section="geojson" />}} -->
 <!-- END GENERATED CONTENT -->
-
+<!--
 {{
 <SDKSupportTable
     supportItems={{
@@ -246,17 +246,17 @@ The `"coordinates"` array contains `[longitude, latitude]` pairs for the image c
         [-80.425, 37.936]
     ]
 }
-```
+``` -->
 <!--
 START GENERATED CONTENT:
 Content in this section is generated directly using the MapLibre Style
 Specification. To update any content displayed in this section, make edits to:
 https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/reference/v8.json.
 -->
-{{<Items headingLevel='3' entry={ref.source_image} section="image" />}}
+<!-- {{<Items headingLevel='3' entry={ref.source_image} section="image" />}} -->
 <!-- END GENERATED CONTENT -->
 
-{{
+<!-- {{
 <SDKSupportTable
     supportItems={{
         'basic functionality': {
@@ -291,7 +291,7 @@ The `"coordinates"` array contains `[longitude, latitude]` pairs for the video c
         [-122.51423120498657, 37.56161849366671]
     ]
 }
-```
+``` -->
 
 <!--
 START GENERATED CONTENT:
@@ -299,10 +299,10 @@ Content in this section is generated directly using the MapLibre Style
 Specification. To update any content displayed in this section, make edits to:
 https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/reference/v8.json.
 -->
-{{<Items headingLevel='3' entry={ref.source_video} section="video" />}}
+<!-- {{<Items headingLevel='3' entry={ref.source_video} section="video" />}} -->
 <!-- END GENERATED CONTENT -->
 
-{{
+<!-- {{
 <SDKSupportTable
     supportItems={{
         'basic functionality': {
@@ -310,4 +310,4 @@ https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/reference/v8
         }
     }}
 />
-}}
+}} -->
