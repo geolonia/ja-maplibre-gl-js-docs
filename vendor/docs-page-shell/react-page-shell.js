@@ -423,8 +423,8 @@ function FooterLegalStrip(props) {
     className: props.className
   }, React.createElement("a", {
     className: "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
-    href: "https://maplibre.org/"
-  }, "MapLibre"));
+    href: "https://geolonia.com/"
+  }, "©️Geolonia"));
 }
 
 FooterLegalStrip.propTypes = {
@@ -437,7 +437,7 @@ function FooterSocialMediaStrip(props) {
   }, React.createElement("a", {
     "aria-label": "Github",
     className: "shell-color-blue shell-color-blue-dark-on-hover shell-inline-block shell-w36",
-    href: "https://github.com/maplibre"
+    href: "https://github.com/geolonia/"
   }, React.createElement("svg", {
     viewBox: "0 0 1790 1790",
     className: "shell-icon shell-icon--s shell-inline"
@@ -446,7 +446,7 @@ function FooterSocialMediaStrip(props) {
   }))), React.createElement("a", {
     "aria-label": "Twitter",
     className: "shell-color-blue shell-color-blue-dark-on-hover shell-inline-block shell-w36",
-    href: "https://twitter.com/maplibre/"
+    href: "https://twitter.com/geoloniamap/"
   }, React.createElement("svg", {
     viewBox: "0 0 50 50",
     className: "shell-icon shell-icon--s shell-inline"
