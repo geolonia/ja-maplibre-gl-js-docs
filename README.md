@@ -1,5 +1,10 @@
 # Geolonia Javascript API Documentation
 
+## Requirements
+
+* Node 12
+* npm 6
+
 
 ## 開発環境の立ち上げ
 
