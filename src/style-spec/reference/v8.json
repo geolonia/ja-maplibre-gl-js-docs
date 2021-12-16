@@ -3804,7 +3804,7 @@
     "fill-color": {
       "type": "color",
       "default": "#000000",
-      "doc": "The color of the filled part of this layer. This color can be specified as `rgba` with an alpha component and the color's opacity will not affect the opacity of the 1px stroke, if it is used.",
+      "doc": "レイヤーの塗りつぶし部分の色。rgba として指定できます。アルファの値の指定による不透明度は、1px ストロークの不透明度には、使用した場合でも影響しません。",
       "transition": true,
       "requires": [
         {
