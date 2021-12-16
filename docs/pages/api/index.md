@@ -12,8 +12,6 @@ products:
 - MapLibre GL JS
 prependJs:
 - "import Quickstart from '../../components/quickstart';"
-- "import Example from '../../components/example';"
-- "import SimpleMapHtml from '../example/simple-map.html';"
 - "import Copyable from '../../components/copyable';"
 - "import urls from '../../components/urls';"
 overviewHeader:
@@ -37,19 +35,6 @@ We are now migrating this documentation from Mapbox to MapLibre. If you want to 
 
 
 ## Quickstart
-
-{{
-    <Example
-        frontMatter={{
-          title: 'MapLibre GL JS map',
-          description: ''
-        }}
-        location={this.props.location}
-        html={SimpleMapHtml}
-        displaySnippet={false}
-        height={300}
-    />
-}}
 
 In the examples we use vector tiles from [MapTiler](https://maptiler.com). Get your own API key if you want to use MapTiler data in your project.
 

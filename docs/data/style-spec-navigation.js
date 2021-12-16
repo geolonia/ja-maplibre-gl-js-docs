@@ -48,53 +48,53 @@ function makeSubNav(entry, section, level) {
 
 export const styleSpecNavigation = [
     { title: 'Introduction', path: '/maplibre-gl-js-docs/style-spec/' },
-    {
-        title: 'Root',
-        path: '/maplibre-gl-js-docs/style-spec/root/',
-        subnav: makeSubNav(ref.$root, null, 2)
-    },
-    {
-        title: 'Sources',
-        path: '/maplibre-gl-js-docs/style-spec/sources/',
-        subnav: [
-            {
-                text: 'vector',
-                slug: 'vector',
-                level: 2
-            },
-            ...makeSubNav(ref.source_vector, 'vector', 3),
-            {
-                text: 'raster',
-                slug: 'raster',
-                level: 2
-            },
-            ...makeSubNav(ref.source_raster, 'raster', 3),
-            {
-                text: 'raster-dem',
-                slug: 'raster-dem',
-                level: 2
-            },
-            ...makeSubNav(ref.source_raster_dem, 'raster-dem', 3),
-            {
-                text: 'geojson',
-                slug: 'geojson',
-                level: 2
-            },
-            ...makeSubNav(ref.source_geojson, 'geojson', 3),
-            {
-                text: 'image',
-                slug: 'image',
-                level: 2
-            },
-            ...makeSubNav(ref.source_image, 'image', 3),
-            {
-                text: 'video',
-                slug: 'video',
-                level: 2
-            },
-            ...makeSubNav(ref.source_video, 'video', 3)
-        ]
-    },
+    // {
+    //     title: 'Root',
+    //     path: '/maplibre-gl-js-docs/style-spec/root/',
+    //     subnav: makeSubNav(ref.$root, null, 2)
+    // },
+    // {
+    //     title: 'Sources',
+    //     path: '/maplibre-gl-js-docs/style-spec/sources/',
+    //     subnav: [
+    //         {
+    //             text: 'vector',
+    //             slug: 'vector',
+    //             level: 2
+    //         },
+    //         ...makeSubNav(ref.source_vector, 'vector', 3),
+    //         {
+    //             text: 'raster',
+    //             slug: 'raster',
+    //             level: 2
+    //         },
+    //         ...makeSubNav(ref.source_raster, 'raster', 3),
+    //         {
+    //             text: 'raster-dem',
+    //             slug: 'raster-dem',
+    //             level: 2
+    //         },
+    //         ...makeSubNav(ref.source_raster_dem, 'raster-dem', 3),
+    //         {
+    //             text: 'geojson',
+    //             slug: 'geojson',
+    //             level: 2
+    //         },
+    //         ...makeSubNav(ref.source_geojson, 'geojson', 3),
+    //         {
+    //             text: 'image',
+    //             slug: 'image',
+    //             level: 2
+    //         },
+    //         ...makeSubNav(ref.source_image, 'image', 3),
+    //         {
+    //             text: 'video',
+    //             slug: 'video',
+    //             level: 2
+    //         },
+    //         ...makeSubNav(ref.source_video, 'video', 3)
+    //     ]
+    // },
     {
         title: 'Layers',
         path: '/maplibre-gl-js-docs/style-spec/layers/',
@@ -133,107 +133,107 @@ export const styleSpecNavigation = [
             arr = arr.concat(thirdLevelItems);
             return arr;
         }, [])
-    },
-    {
-        title: 'Types',
-        path: '/maplibre-gl-js-docs/style-spec/types/',
-        subnav: [
-            {
-                text: 'Color',
-                slug: 'color',
-                level: 2
-            },
-            {
-                text: 'Formatted',
-                slug: 'formatted',
-                level: 2
-            },
-            {
-                text: 'ResolvedImage',
-                slug: 'resolvedimage',
-                level: 2
-            },
-            {
-                text: 'String',
-                slug: 'string',
-                level: 2
-            },
-            {
-                text: 'Boolean',
-                slug: 'boolean',
-                level: 2
-            },
-            {
-                text: 'Number',
-                slug: 'number',
-                level: 2
-            },
-            {
-                text: 'Array',
-                slug: 'array',
-                level: 2
-            }
-        ]
-    },
-    {
-        title: 'Sprite',
-        path: '/maplibre-gl-js-docs/style-spec/sprite/'
-    },
-    {
-        title: 'Glyphs',
-        path: '/maplibre-gl-js-docs/style-spec/glyphs/'
-    },
-    {
-        title: 'Transition',
-        path: '/maplibre-gl-js-docs/style-spec/transition/',
-        subnav: makeSubNav(ref.transition, null, 2)
-    },
-    {
-        title: 'Light',
-        path: '/maplibre-gl-js-docs/style-spec/light/',
-        subnav: makeSubNav(ref.light, null, 2)
-    },
-    {
-        title: 'Other',
-        path: '/maplibre-gl-js-docs/style-spec/other/',
-        tag: 'legacy',
-        subnav: [
-            {
-                text: 'Function',
-                slug: 'function',
-                level: 2
-            },
-            ...[
-                'stops',
-                'property',
-                'base',
-                'type',
-                'default',
-                'colorSpace'
-            ].map((text) => {
-                return {
-                    text,
-                    slug: `function-${text}`,
-                    level: 3
-                };
-            }),
-            {
-                text: 'Other filter',
-                slug: 'other-filter',
-                level: 2
-            },
-            ...[
-                'Existential filters',
-                'Comparison filters',
-                'Set membership filters',
-                'Combining filters'
-            ].map((text) => {
-                return {
-                    text,
-                    slug: slug(text),
-                    level: 3
-                };
-            })
-        ]
     }
+    // {
+    //     title: 'Types',
+    //     path: '/maplibre-gl-js-docs/style-spec/types/',
+    //     subnav: [
+    //         {
+    //             text: 'Color',
+    //             slug: 'color',
+    //             level: 2
+    //         },
+    //         {
+    //             text: 'Formatted',
+    //             slug: 'formatted',
+    //             level: 2
+    //         },
+    //         {
+    //             text: 'ResolvedImage',
+    //             slug: 'resolvedimage',
+    //             level: 2
+    //         },
+    //         {
+    //             text: 'String',
+    //             slug: 'string',
+    //             level: 2
+    //         },
+    //         {
+    //             text: 'Boolean',
+    //             slug: 'boolean',
+    //             level: 2
+    //         },
+    //         {
+    //             text: 'Number',
+    //             slug: 'number',
+    //             level: 2
+    //         },
+    //         {
+    //             text: 'Array',
+    //             slug: 'array',
+    //             level: 2
+    //         }
+    //     ]
+    // },
+    // {
+    //     title: 'Sprite',
+    //     path: '/maplibre-gl-js-docs/style-spec/sprite/'
+    // },
+    // {
+    //     title: 'Glyphs',
+    //     path: '/maplibre-gl-js-docs/style-spec/glyphs/'
+    // },
+    // {
+    //     title: 'Transition',
+    //     path: '/maplibre-gl-js-docs/style-spec/transition/',
+    //     subnav: makeSubNav(ref.transition, null, 2)
+    // },
+    // {
+    //     title: 'Light',
+    //     path: '/maplibre-gl-js-docs/style-spec/light/',
+    //     subnav: makeSubNav(ref.light, null, 2)
+    // },
+    // {
+    //     title: 'Other',
+    //     path: '/maplibre-gl-js-docs/style-spec/other/',
+    //     tag: 'legacy',
+    //     subnav: [
+    //         {
+    //             text: 'Function',
+    //             slug: 'function',
+    //             level: 2
+    //         },
+    //         ...[
+    //             'stops',
+    //             'property',
+    //             'base',
+    //             'type',
+    //             'default',
+    //             'colorSpace'
+    //         ].map((text) => {
+    //             return {
+    //                 text,
+    //                 slug: `function-${text}`,
+    //                 level: 3
+    //             };
+    //         }),
+    //         {
+    //             text: 'Other filter',
+    //             slug: 'other-filter',
+    //             level: 2
+    //         },
+    //         ...[
+    //             'Existential filters',
+    //             'Comparison filters',
+    //             'Set membership filters',
+    //             'Combining filters'
+    //         ].map((text) => {
+    //             return {
+    //                 text,
+    //                 slug: slug(text),
+    //                 level: 3
+    //             };
+    //         })
+    //     ]
+    // }
 ];
