@@ -1,5 +1,5 @@
 ---
-title: Style Specification
+title: スタイルリファレンス
 description: 'This specification defines and describes the visual appearance of a map: what data to draw, the order to draw it in, and how to style the data when drawing it.'
 contentType: specification
 navOrder: 4
@@ -9,7 +9,7 @@ hideFeedback: true
 products:
 - Mapbox Style Specification
 overviewHeader:
-  title: Style Specification
+  title: スタイルリファレンス
   features: []
   ghLink: https://github.com/maplibre/maplibre-gl-js/tree/main/src/style-spec
   # changelogLink: https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/CHANGELOG.md

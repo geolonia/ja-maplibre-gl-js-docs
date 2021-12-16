@@ -1,5 +1,5 @@
 ---
-title: API Reference
+title: APIリファレンス
 description: The MapLibre GL JS API documentation to render interactive maps from vector tiles and MapLibre styles.
 contentType: API
 navOrder: 1
