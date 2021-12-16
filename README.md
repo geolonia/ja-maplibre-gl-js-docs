@@ -15,6 +15,8 @@ git submodule update --init # initialize maplibre-gl-js git submodule
 npm start
 ```
 
+https://github.com/geolonia/ja-maplibre-gl-js が更新された場合は、 `git submodule update` を実行して、ローカルの `maplibre-gl-js` を更新する。
+
 <!-- 
 
 The source code for https://maplibre.org/maplibre-gl-js-docs/, the website that hosts [API documentation](#writing-api-documentation) and [examples](#writing-examples) for [MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js). A GitHub Actions Workflow is triggered on push to the ```main``` branch. This Action builds the static website and deploys it to GitHub Pages by pushing to the ```gh-pages``` branch.
