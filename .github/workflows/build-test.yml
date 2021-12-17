@@ -19,8 +19,8 @@ jobs:
     # npm run build をバラバラに実行。サブモジュール内の npm scripts を実行するため。
     - run: npm run install-gl-js-deps
     - name: Build ja-maplibre-gl-js
-        run: npm run build-dev
-        working-directory: ./maplibre-gl-js
+      run: npm run build-dev
+      working-directory: ./maplibre-gl-js
     - run: npx documentation build --github --format json --sort-order alpha --config ./docs/documentation.yml --output docs/components/api.json maplibre-gl-js/dist/maplibre-gl-dev.js
     - run: npm run build-images
     - run: npx batfish build
