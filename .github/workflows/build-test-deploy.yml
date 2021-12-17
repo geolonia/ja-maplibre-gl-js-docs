@@ -16,7 +16,14 @@ jobs:
         node-version: 12.x
     - run: npm ci
     - run: git submodule update --remote --merge
-    - run: npm run build
+    # npm run build をバラバラに実行。サブモジュール内の npm scripts を実行するため。
+    - run: npm run install-gl-js-deps
+    - run: cd maplibre-gl-js
+    - run: npm run build-dev
+    - run: cd ../
+    - run: npx documentation build --github --format json --sort-order alpha --config ./docs/documentation.yml --output docs/components/api.json maplibre-gl-js/dist/maplibre-gl-dev.js
+    - run: npm run build-images
+    - run: npx batfish build
     - run: npm run test
     - run: cp _config.yml _site
     - name: Deploy
