@@ -1,6 +1,6 @@
 name: build-test-deploy
 
-on: 
+on:
   push:
     branches:
     - main
@@ -15,10 +15,10 @@ jobs:
       with:
         node-version: 12.x
     - run: npm ci
-    - run: git submodule update --init
+    - run: git submodule update --remote --merge
     - run: npm run build
     - run: npm run test
-    - run: cp _config.yml _site 
+    - run: cp _config.yml _site
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.0
       with:
