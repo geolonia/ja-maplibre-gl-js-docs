@@ -20,7 +20,11 @@ jobs:
     - run: npm run install-gl-js-deps
     - name: build ja-maplibre-gl-js
       run: |
+        pwd
+        ls ./maplibre-gl-js/
         cd ./maplibre-gl-js/
+        pwd
+        ls
         npm run build-dev
     - run: npx documentation build --github --format json --sort-order alpha --config ./docs/documentation.yml --output docs/components/api.json maplibre-gl-js/dist/maplibre-gl-dev.js
     - run: npm run build-images
