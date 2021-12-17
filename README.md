@@ -20,7 +20,7 @@ git submodule update --init # initialize maplibre-gl-js git submodule
 npm start
 ```
 
-https://github.com/geolonia/ja-maplibre-gl-js が更新された場合は、 `git submodule update` を実行して、ローカルの `maplibre-gl-js` を更新する。
+https://github.com/geolonia/ja-maplibre-gl-js が更新された場合は、 `git submodule update --remote` を実行して、ローカルの `maplibre-gl-js` を更新する。
 
 <!-- 
 
