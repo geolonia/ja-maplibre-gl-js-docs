@@ -20,6 +20,7 @@ jobs:
         git submodule update --remote --merge
         pwd
         cat ./maplibre-gl-js/package.json
+        cat ./maplibre-gl-js
     # npm run build をバラバラに実行。サブモジュール内の npm scripts を実行するため。
     - run: npm run install-gl-js-deps
     - name: Build ja-maplibre-gl-js
