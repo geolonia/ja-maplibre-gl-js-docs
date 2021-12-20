@@ -11,8 +11,8 @@
 依存関係をインストール
 
 ```bash
-npm ci # install dependencies with npm
-git submodule update --remote --merge # initialize maplibre-gl-js git submodule
+npm ci
+git submodule update --remote --merge
 ```
 
 ローカルでドキュメントサイトを立ち上げる
@@ -20,7 +20,7 @@ git submodule update --remote --merge # initialize maplibre-gl-js git submodule
 npm start
 ```
 
-https://github.com/geolonia/ja-maplibre-gl-js が更新された場合は、 `git submodule update --remote` を実行して、ローカルの `maplibre-gl-js` を更新する。
+https://github.com/geolonia/ja-maplibre-gl-js が更新された場合は、 `git submodule update --remote --merge` を実行して、ローカルの `maplibre-gl-js` を更新する。
 
 <!--
 
