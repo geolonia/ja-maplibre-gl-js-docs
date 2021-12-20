@@ -19,7 +19,8 @@ jobs:
     - run: npm ci
     - name: Build ja-maplibre-gl-js
       run: |
-        git submodule update --remote --merge
+        git submodule update --remote --recursive
+        ls
         pwd
         cat ./maplibre-gl-js/package.json
         cat ./maplibre-gl-js
