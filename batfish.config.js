@@ -4,9 +4,6 @@ const path = require('path');
 const apiNavigation = require('./docs/data/api-navigation');
 const { buildApiSearch } = require('./docs/util/build-api-search');
 const {
-    mbxTaggerBatfish
-} = require('@mapbox/remark-lint-mapbox/frontmatter/mbx-tagger-batfish');
-const {
     buildNavigation,
     buildFilters
 } = require('@mapbox/dr-ui/helpers/batfish/index.js');
@@ -25,11 +22,11 @@ const addPages = [
     // }
 ];
 
-const siteBasePath = '/ja-maplibre-gl-js-docs';
+const siteBasePath = '/maplibre-gl-js-docs';
 module.exports = () => {
     const config = {
         siteBasePath: siteBasePath,
-        siteOrigin: 'https://geolonia.github.io/ja-maplibre-gl-js-docs/',
+        siteOrigin: 'https://maplibre.github.io',
         pagesDirectory: `${__dirname}/docs/pages`,
         outputDirectory: path.join(__dirname, '_site'),
         browserslist: mapboxAssembly.browsersList,
@@ -79,8 +76,6 @@ module.exports = () => {
             ]
         },
         dataSelectors: {
-            // generate mapbox metadata for every page
-            mbxMeta: (data) => mbxTaggerBatfish(data),
             apiSearch: () => buildApiSearch(),
             apiNavigation: () => apiNavigation,
             navigation: (data) =>
