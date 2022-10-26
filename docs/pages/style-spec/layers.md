@@ -17,9 +17,13 @@ prependJs:
     - "import Caption from '../../components/caption';"
 ---
 
-A style's `layers` property lists all the layers available in that style. The type of layer is specified by the `"type"` property, and must be one of {{layerTypes.map((t, i) => <var key={i}>{t}</var>).reduce((prev, curr) => [prev, ', ', curr])}}.
+<!-- A style's `layers` property lists all the layers available in that style. The type of layer is specified by the `"type"` property, and must be one of {{layerTypes.map((t, i) => <var key={i}>{t}</var>).reduce((prev, curr) => [prev, ', ', curr])}}. -->
 
-Except for layers of the <var>background</var> type, each layer needs to refer to a source. Layers take the data that they get from a source, optionally filter features, and then define how those features are styled.
+スタイルの `layers` プロパティは、そのスタイルで利用可能なすべてのレイヤーを一覧表示します。レイヤーのタイプは `"type"` プロパティで指定され、{{layerTypes.map((t, i) => <var key={i}>{t}</var>).reduce((prev, curr) => [prev, ', ', curr])}} のいずれかである必要があります。
+
+<!-- Except for layers of the <var>background</var> type, each layer needs to refer to a source. Layers take the data that they get from a source, optionally filter features, and then define how those features are styled. -->
+
+<var>background</var> タイプのレイヤーを除き、各レイヤーはソースを参照する必要があります。レイヤーはソースから取得したデータを受け取り、フィーチャーをフィルタリングすることもあり、それらのフィーチャーがどのようなスタイルを取るかを定義します。
 
 ```json
 "layers": {{JSON.stringify(
@@ -43,11 +47,17 @@ https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/reference/v8
 
 <hr className='my36' />
 
-Layers have two sub-properties that determine how data from that layer is rendered: `layout` and `paint` properties.
+<!-- Layers have two sub-properties that determine how data from that layer is rendered: `layout` and `paint` properties. -->
 
-_Layout properties_ appear in the layer's `"layout"` object. They are applied early in the rendering process and define how data for that layer is passed to the GPU. Changes to a layout property require an asynchronous "layout" step.
+レイヤーのプロパティは、そのレイヤーからのデータをどのようにレンダリングするかを決める2つのサブプロパティ、`layout` プロパティと `paint` プロパティとに分けられます。
 
-_Paint properties_ are applied later in the rendering process. Paint properties appear in the layer's `"paint"` object. Changes to a paint property are cheap and happen synchronously.
+<!-- _Layout properties_ appear in the layer's `"layout"` object. They are applied early in the rendering process and define how data for that layer is passed to the GPU. Changes to a layout property require an asynchronous "layout" step. -->
+
+_layout プロパティ_ はレイヤーの `"layout"` オブジェクトに表示されます。これらはレンダリング処理の初期に適用され、そのレイヤーのデータをどのように GPU に渡すかを定義します。layout プロパティを変更するには、非同期の layout ステップが必要です。
+
+<!-- _Paint properties_ are applied later in the rendering process. Paint properties appear in the layer's `"paint"` object. Changes to a paint property are cheap and happen synchronously. -->
+
+_paint プロパティ_ はレンダリング処理の後半に適用されます。paint プロパティはレイヤーの `"paint"` オブジェクトに表示されます。paint プロパティへの変更は低コストで、同期的に行われます。
 
 <!--
 START GENERATED CONTENT:
@@ -58,7 +68,9 @@ https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/reference/v8
 
 ## background
 
-The `background` style layer covers the entire map. Use a background style layer to configure a color or pattern to show below all other map content. If the background layer is transparent or omitted from the style, any part of the map view that does not show another style layer is transparent.
+<!-- The `background` style layer covers the entire map. Use a background style layer to configure a color or pattern to show below all other map content. If the background layer is transparent or omitted from the style, any part of the map view that does not show another style layer is transparent. -->
+
+`background` スタイルレイヤーは、地図全体をカバーします。background スタイルレイヤーを使用して、以下の他のすべての地図コンテンツを表示するための色またはパターンを設定します。background レイヤーが透明であるか、スタイルから省略された場合、地図ビューの他のスタイルレイヤーが表示されていない部分はすべて透明になります。
 
 {{
   <AppropriateImage
