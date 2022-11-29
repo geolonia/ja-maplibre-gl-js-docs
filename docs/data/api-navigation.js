@@ -36,11 +36,7 @@ module.exports = [
         title: 'Map',
         path: '/maplibre-gl-js-docs/api/map/',
         subnav: buildSubSubNav(
-<<<<<<< HEAD
-            apiFilterItems('Map class')[0].members.static[0], // Hack to resolve naming documentaiton.yml conflict b/w the "Map" class and the "Map" section
-=======
             apiFilterItems('Map class')[0].members.static[0], // Hack to resolve naming documentation.yml conflict b/w the "Map" class and the "Map" section
->>>>>>> upstream/main
             'map',
             2
         )
