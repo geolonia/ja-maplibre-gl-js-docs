@@ -131,7 +131,7 @@ A `symbol` style layer renders icon and text labels at points or along lines on 
 }}
 
 {{<Caption>}}
-This [map of Denver area businesses](/help/troubleshooting/using-recolorable-images-in-mapbox-maps/#mapbox-gl-js) uses the [`icon-image`](/maplibre-gl-js-docs/style-spec/layers/#layout-symbol-icon-image) layout property to use a custom image as an icon in a symbol layer.
+This map of Denver area businesses uses the [`icon-image`](/maplibre-gl-js-docs/style-spec/layers/#layout-symbol-icon-image) layout property to use a custom image as an icon in a symbol layer.
 {{</Caption>}}
 
 {{<Items headingLevel="3" entry={combineItems(['layout','paint'], 'symbol')} /> }}
@@ -206,7 +206,11 @@ A `heatmap` style layer renders a range of colors to represent the density of po
 
 ## hillshade
 
+<<<<<<< HEAD
 A `hillshade` style layer renders digital elevation model (DEM) data on the client-side. The implementation only supports [Mapbox Terrain RGB](/help/how-mapbox-works/mapbox-data/#mapbox-terrain-rgb) and Mapzen Terrarium tiles.
+=======
+A `hillshade` style layer renders digital elevation model (DEM) data on the client-side. The implementation only supports Mapbox Terrain RGB and Mapzen Terrarium tiles.
+>>>>>>> upstream/main
 
 {{
   <AppropriateImage

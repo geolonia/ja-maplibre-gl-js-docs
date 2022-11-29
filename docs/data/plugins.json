@@ -89,7 +89,7 @@
       "description": "Hide and show traffic layers on your map with an optional toggle button."
     },
     "deck.gl": {
-      "website": "https://github.com/uber/deck.gl",
+      "website": "https://github.com/visgl/deck.gl",
       "description": "Adds advanced WebGL visualization layers."
     },
     "L7": {
@@ -109,12 +109,16 @@
     "mapbox-gl-esri-sources": {
       "website": "https://github.com/frontiersi/mapbox-gl-esri-sources",
       "description": "A library for making it easier to use Esri services in MapLibre GL JS. Supports Esri Map Services (dynamic & tiled), Esri Vector Tile Services & Esri Vector Basemap Styles."
+    },
+    "pmtiles": {
+      "website": "https://github.com/protomaps/PMTiles",
+      "description": "A library for retrieving tiles from single-file, cloud-storage-optimized PMTiles archives, which don't require running a server or API."
     }
   },
   "Framework Integrations": {
     "echartslayer": {
       "website": "https://github.com/lzxue/echartLayer",
-      "description": "Provides an [echarts](https://ecomfe.github.io/echarts/index-en.html) integration."
+      "description": "Provides an [echarts](https://echarts.apache.org/en/index.html) integration."
     },
     "wtMapbox": {
       "website": "https://github.com/yvanvds/wtMapbox",
@@ -172,8 +176,12 @@
       "description": "Create a choropleth layer from a CSV source and a geometry source."
     },
     "mapbox-gl-utils": {
-      "website": "https://github.com/stevage/mapbox-gl-utils",
+      "website": "https://github.com/stevage/map-gl-utils",
       "description": "Manage layers, sources, and properties with syntactic sugar and convenience functions."
+    },
+    "maplibregl-mapbox-request-transformer": {
+      "website": "https://github.com/rowanwins/maplibregl-mapbox-request-transformer",
+      "description": "This library provides a request transforming function enabling the consumption of MapboxGL Styles in MapLibreGL."
     }
   },
   "Development Tools": {
@@ -181,8 +189,8 @@
       "website": "https://github.com/mapbox/mapbox-gl-js-mock",
       "description": "A [mock](https://en.wikipedia.org/wiki/Mock_object) of Mapbox GL JS."
     },
-    "mapbox-gl-inspect": {
-      "website": "https://github.com/lukasmartinelli/mapbox-gl-inspect",
+    "maplibre-gl-inspect": {
+      "website": "https://github.com/acalcutt/maplibre-gl-inspect",
       "description": "Adds an inspect control to view vector source features and properties."
     },
     "mapbox-gl-fps": {
@@ -192,6 +200,10 @@
     "mapbox-gl-framerate": {
       "website": "https://github.com/mapbox/mapbox-gl-framerate",
       "description": "A frame rate control to evaluate map rendering performance."
+    },
+    "sdf-glyph-tool": {
+      "website": "https://github.com/protomaps/sdf-glyph-tool",
+      "description": "A web app to generate custom SDF glyph ranges from font files to use in MapLibre GL."
     }
   }
 }

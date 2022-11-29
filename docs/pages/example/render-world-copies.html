@@ -1,0 +1,43 @@
+<style>
+    #menu {
+        position: absolute;
+        background: #fff;
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+    }
+</style>
+
+<div id="map"></div>
+<div id="menu">
+    <div>Set <code>renderWorldCopies</code> to:</div>
+    <div>
+        <input type="radio" id="true" name="rtoggle" value="true" checked />
+        <label for="true">true</label>
+    </div>
+    <div>
+        <input type="radio" id="false" name="rtoggle" value="false" />
+        <label for="false">false</label>
+    </div>
+</div>
+
+<script>
+    var map = new maplibregl.Map({
+        container: 'map', // container id
+        style:
+            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL', // stylesheet location
+        center: [179, 0], // starting position [lng, lat]
+        zoom: 0.01 // starting zoom
+    });
+
+    var renderOptions = document.getElementById('menu');
+    var inputs = renderOptions.getElementsByTagName('input');
+
+    function switchRenderOption(option) {
+        var status = option.target.id;
+        map.setRenderWorldCopies(status === 'true');
+    }
+
+    for (var i = 0; i < inputs.length; i++) {
+        inputs[i].onclick = switchRenderOption;
+    }
+</script>

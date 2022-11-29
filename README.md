@@ -2,8 +2,8 @@
 
 ## Requirements
 
-* Node 12
-* npm 6
+* Node 16
+* npm 8
 
 
 ## 開発環境の立ち上げ
@@ -22,7 +22,7 @@ npm start
 
 https://github.com/geolonia/ja-maplibre-gl-js が更新された場合は、 `git submodule update --remote` を実行して、ローカルの `maplibre-gl-js` を更新する。
 
-<!-- 
+<!--
 
 The source code for https://maplibre.org/maplibre-gl-js-docs/, the website that hosts [API documentation](#writing-api-documentation) and [examples](#writing-examples) for [MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js). A GitHub Actions Workflow is triggered on push to the ```main``` branch. This Action builds the static website and deploys it to GitHub Pages by pushing to the ```gh-pages``` branch.
 
@@ -32,8 +32,8 @@ We are now migrating this documentation from Mapbox to MapLibre. If you want to 
 
 ## Requirements
 
-* Node 12
-* npm 6
+* Node 16
+* npm 8
 
 If you're not sure if your Node and NPM versions are up to date, run `nvm use` before installing dependencies. If you don't have NVM installed, you can [find installation instructions here](https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating).
 
@@ -83,7 +83,6 @@ In content area of the markdown page include an extended description of the exam
 In the `.html` file, write the HTML and JavaScript constituting the example.
 
 * Do **not** include an access token in the example code. The access token will be inserted automatically by the template, using the current logged in user's default public token, or a placeholder `<insert token here>` string if the user is not logged in.
-* Do **not** use custom styles from your personal account. Use only the default `mapbox` account styles.
 * On commit, Prettier will format the code for all files, including HTML.
 
 Every example **must** have an accompanying image. To get an image, run the site locally and take a screenshot of the rendered map in the example:
@@ -113,4 +112,3 @@ so make sure to have a working minified build in your local copy of the `maplibr
 When a new GL JS release goes out, the release manager will make a PR that updates this repo's `maplibre-gl-js` submodule to point to the new release. When updating the submodule, you may need to run `npm test -- -u` to update Jest snapshots related to the sidebar navigation.
 
 To update or add a new example, PR the relevant changes to this repo. The example will be live once the PR is merged.  If this example uses a version of GL JS that isn't yet released, the PR should not be merged until the release is out.
- -->
