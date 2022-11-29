@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/api</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/examples</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/examples</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/overview</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/overview</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/events</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/api/events</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/map</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/api/map</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/markers</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/api/markers</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec/expressions</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/expressions</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/style-spec/layers</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/layers</loc>
     </url>
 </urlset>
