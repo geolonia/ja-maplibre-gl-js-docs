@@ -1,7 +1,7 @@
 name: build-test-deploy
 
-on: 
-  push:
+on:
+   push:
     branches:
     - main
 
@@ -15,12 +15,21 @@ jobs:
       with:
         node-version: 12.x
     - run: npm ci
-    - run: git submodule update --init
-    - run: npm run build
+    - name: Build ja-maplibre-gl-js
+      run: git submodule update --remote --recursive
+    # npm run build をバラバラに実行。サブモジュール内の npm scripts を実行するため。
+    - run: npm run install-gl-js-deps
+    - name: Build ja-maplibre-gl-js
+      run: |
+        cd ./maplibre-gl-js
+        npm run build-dev
+    - run: npx documentation build --github --format json --sort-order alpha --config ./docs/documentation.yml --output docs/components/api.json maplibre-gl-js/dist/maplibre-gl-dev.js
+    - run: npm run build-images
+    - run: npx batfish build
     - run: npm run test
-    - run: cp _config.yml _site 
+    - run: cp _config.yml _site
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@4.1.0
+       uses: JamesIves/github-pages-deploy-action@4.1.0
       with:
         branch: gh-pages
         folder: _site

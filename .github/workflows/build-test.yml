@@ -1,6 +1,6 @@
 name: build-test
 
-on: 
+on:
   pull_request:
     branches:
     - main
@@ -10,11 +10,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: recursive
     - name: Use Node.js 12.x
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
     - run: npm ci
-    - run: git submodule update --init
-    - run: npm run build
+    - name: Build ja-maplibre-gl-js
+      run: git submodule update --remote --recursive
+    # npm run build をバラバラに実行。サブモジュール内の npm scripts を実行するため。
+    - run: npm run install-gl-js-deps
+    - name: Build ja-maplibre-gl-js
+      run: |
+        cd ./maplibre-gl-js
+        npm run build-dev
+    - run: npx documentation build --github --format json --sort-order alpha --config ./docs/documentation.yml --output docs/components/api.json maplibre-gl-js/dist/maplibre-gl-dev.js
+    - run: npm run build-images
+    - run: npx batfish build
     - run: npm run test
