@@ -1,6 +1,6 @@
 name: build-test
 
-on: 
+on:
   pull_request:
     branches:
     - main
@@ -9,11 +9,10 @@ jobs:
   build-test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js 12.x
-      uses: actions/setup-node@v1
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
       with:
-        node-version: 12.x
+        node-version: 16.16
     - run: npm ci
     - run: git submodule update --init
     - run: npm run build

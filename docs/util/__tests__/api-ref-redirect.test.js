@@ -25,11 +25,11 @@ it(`api-ref-redirect`, () => {
         })
     ).toEqual('/maplibre-gl-js-docs/api/map/#map.event:mouseover');
 
-    // expect(
-    //     redirect({
-    //         hash: '#lnglat'
-    //     })
-    // ).toEqual('/maplibre-gl-js-docs/api/geography/#lnglat');
+    expect(
+        redirect({
+            hash: '#lnglat'
+        })
+    ).toEqual('/maplibre-gl-js-docs/api/geography/#lnglat');
 
     expect(
         redirect({
@@ -43,17 +43,17 @@ it(`api-ref-redirect`, () => {
         })
     ).toEqual('/maplibre-gl-js-docs/api/markers/#icontrol#getdefaultposition');
 
-    // expect(
-    //     redirect({
-    //         hash: '#touchpitchhandler#isenabled'
-    //     })
-    // ).toEqual('/maplibre-gl-js-docs/api/handlers/#touchpitchhandler#isenabled');
+    expect(
+        redirect({
+            hash: '#touchpitchhandler#isenabled'
+        })
+    ).toEqual('/maplibre-gl-js-docs/api/handlers/#touchpitchhandler#isenabled');
 
-    // expect(
-    //     redirect({
-    //         hash: '#canvassource#getcanvas'
-    //     })
-    // ).toEqual('/maplibre-gl-js-docs/api/sources/#canvassource#getcanvas');
+    expect(
+        redirect({
+            hash: '#canvassource#getcanvas'
+        })
+    ).toEqual('/maplibre-gl-js-docs/api/sources/#canvassource#getcanvas');
 
     expect(
         redirect({
@@ -67,9 +67,9 @@ it(`api-ref-redirect`, () => {
         })
     ).toEqual('/maplibre-gl-js-docs/api/events/#mapwheelevent#type');
 
-    // expect(
-    //     redirect({
-    //         hash: '#clearprewarmedresources'
-    //     })
-    // ).toEqual('/maplibre-gl-js-docs/api/properties/#clearprewarmedresources');
+    expect(
+        redirect({
+            hash: '#clearprewarmedresources'
+        })
+    ).toEqual('/maplibre-gl-js-docs/api/properties/#clearprewarmedresources');
 });

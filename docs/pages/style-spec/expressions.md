@@ -3,7 +3,7 @@ title: Expressions
 id: expressions
 description: An expression defines a formula for computing the value of the property using the operators described in this section.
 contentType: specification
-order: 3
+order: 10
 layout: page
 hideFeedback: true
 products:
