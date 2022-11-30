@@ -36,7 +36,7 @@ module.exports = [
         title: 'Map',
         path: '/maplibre-gl-js-docs/api/map/',
         subnav: buildSubSubNav(
-            apiFilterItems('Map class')[0].members.static[0], // Hack to resolve naming documentaiton.yml conflict b/w the "Map" class and the "Map" section
+            apiFilterItems('Map class')[0].members.static[0], // Hack to resolve naming documentation.yml conflict b/w the "Map" class and the "Map" section
             'map',
             2
         )
@@ -44,16 +44,16 @@ module.exports = [
     {
         title: 'Markers and controls',
         path: '/maplibre-gl-js-docs/api/markers/',
-        subnav: buldSubNav('Markers and controls')
+        subnav: buildSubNav('Markers and controls')
     },
     {
         title: 'Events',
         path: '/maplibre-gl-js-docs/api/events/',
-        subnav: buldSubNav('Events')
+        subnav: buildSubNav('Events')
     }
 ];
 
-function buldSubNav(section) {
+function buildSubNav(section) {
     const items = apiFilterItems(section)[0].members.static;
     return items.reduce((arr, item) => {
         arr.push({
