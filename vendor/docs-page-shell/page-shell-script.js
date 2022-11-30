@@ -63,7 +63,7 @@
             t = window.document.getElementById("page-shell-compatibility-warning");
         e && e.removeEventListener("click", g), t && (t.style.display = "none"), window.localStorage && window.localStorage.setItem("suppress-browser-compatibility-warning", "true");
     }
-    
+
     function w() {
         window.matchMedia("(min-width: " + e + "px)").matches && y();
     }
@@ -127,8 +127,8 @@
                       return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e;
                   })(e);
     }
-    
-    
+
+
     var MapboxPageShell = {
         afterUserCheck: function() {},
         removeNavigation: removeNavigation,
