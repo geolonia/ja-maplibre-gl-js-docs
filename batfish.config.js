@@ -22,7 +22,7 @@ const addPages = [
     // }
 ];
 
-const siteBasePath = '/ja-maplibre-gl-js-docs';
+const siteBasePath = '/maplibre-gl-js-docs';
 module.exports = () => {
     const config = {
         siteBasePath: siteBasePath,

@@ -104,8 +104,8 @@ class PageShell extends React.Component {
             >
                 <PageLayout
                     domain={{
-                        title: 'Geolonia',
-                        path: 'https://docs.geolonia.com/'
+                        title: 'MapLibre',
+                        path: 'https://maplibre.org/'
                     }}
                     hideSearch={true}
                     location={location}

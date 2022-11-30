@@ -42,9 +42,30 @@ module.exports = [
         )
     },
     {
+        title: 'Properties and options',
+        path: '/maplibre-gl-js-docs/api/properties/',
+        subnav: buildSubNav('Properties and options')
+    },
+    {
         title: 'Markers and controls',
         path: '/maplibre-gl-js-docs/api/markers/',
         subnav: buildSubNav('Markers and controls')
+    },
+
+    {
+        title: 'Geography and geometry',
+        path: '/maplibre-gl-js-docs/api/geography/',
+        subnav: buildSubNav('Geography and geometry')
+    },
+    {
+        title: 'User interaction handlers',
+        path: '/maplibre-gl-js-docs/api/handlers/',
+        subnav: buildSubNav('User interaction handlers')
+    },
+    {
+        title: 'Sources',
+        path: '/maplibre-gl-js-docs/api/sources/',
+        subnav: buildSubNav('Sources')
     },
     {
         title: 'Events',
