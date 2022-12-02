@@ -25,13 +25,13 @@
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/api/events</loc>
     </url>
     <url>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/api/geography</loc>
+    </url>
+    <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/api/handlers</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/api/map</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/api/geography</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/api/markers</loc>
@@ -100,9 +100,6 @@
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/canvas-source</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/center-on-symbol</loc>
-    </url>
-    <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/change-building-color-based-on-zoom-level</loc>
     </url>
     <url>
@@ -122,6 +119,9 @@
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/custom-marker-icons</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/center-on-symbol</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/custom-style-layer</loc>
@@ -319,9 +319,6 @@
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/video-on-a-map</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/visualize-population-density</loc>
-    </url>
-    <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/wms</loc>
     </url>
     <url>
@@ -356,5 +353,8 @@
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/types</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/visualize-population-density</loc>
     </url>
 </urlset>
