@@ -236,9 +236,9 @@ MobileMenuButton.propTypes = {
   darkText: PropTypes.bool
 };
 
-var language = "en";
+var language = "ja";
 var logoSiteTitle = "Docs";
-var all = "MapLibre";
+var all = "Geolonia";
 var nav = [
 ];
 var navigationMenuData = {
@@ -248,7 +248,7 @@ var navigationMenuData = {
 	nav: nav
 };
 
-var ORIGIN_DOCS_PRODUCTION = 'https://maplibre.org/maplibre-gl-js-docs';
+var ORIGIN_DOCS_PRODUCTION = 'https://geolonia.github.io/ja-maplibre-gl-js-docs/api';
 var DEFAULT_SOCIAL_IMAGE_URL = 'https://static-assets.mapbox.com/branding/social/social-1200x630.v1.png';
 var DEFAULT_SOCIAL_IMAGE_THUMBNAIL_URL = 'https://static-assets.mapbox.com/branding/social/social-120x120.v1.png';
 
@@ -336,8 +336,8 @@ function Logo(props) {
   return React.createElement("div", {
     className: "shell-flex-parent shell-flex-parent--center-cross"
   }, React.createElement("a", {
-    href: "https://www.maplibre.org",
-    "aria-label": "MapLibre",
+    href: "https://docs.geolonia.com/",
+    "aria-label": "Geolonia",
     className: logoClasses,
     style: logoStyles
   }), border, React.createElement("a", {
@@ -423,8 +423,8 @@ function FooterLegalStrip(props) {
     className: props.className
   }, React.createElement("a", {
     className: "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
-    href: "https://maplibre.org/"
-  }, "MapLibre"));
+    href: "https://docs.geolonia.com/"
+  }, "Geolonia"));
 }
 
 FooterLegalStrip.propTypes = {
@@ -437,7 +437,7 @@ function FooterSocialMediaStrip(props) {
   }, React.createElement("a", {
     "aria-label": "Github",
     className: "shell-color-blue shell-color-blue-dark-on-hover shell-inline-block shell-w36",
-    href: "https://github.com/maplibre"
+    href: "https://github.com/geolonia"
   }, React.createElement("svg", {
     viewBox: "0 0 1790 1790",
     className: "shell-icon shell-icon--s shell-inline"
@@ -446,7 +446,7 @@ function FooterSocialMediaStrip(props) {
   }))), React.createElement("a", {
     "aria-label": "Twitter",
     className: "shell-color-blue shell-color-blue-dark-on-hover shell-inline-block shell-w36",
-    href: "https://twitter.com/maplibre/"
+    href: "https://twitter.com/geoloniamap/"
   }, React.createElement("svg", {
     viewBox: "0 0 50 50",
     className: "shell-icon shell-icon--s shell-inline"
