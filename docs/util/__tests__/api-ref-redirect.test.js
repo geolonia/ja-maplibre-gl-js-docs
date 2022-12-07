@@ -45,12 +45,6 @@ it(`api-ref-redirect`, () => {
 
     expect(
         redirect({
-            hash: '#touchpitchhandler#isenabled'
-        })
-    ).toEqual('/maplibre-gl-js-docs/api/handlers/#touchpitchhandler#isenabled');
-
-    expect(
-        redirect({
             hash: '#canvassource#getcanvas'
         })
     ).toEqual('/maplibre-gl-js-docs/api/sources/#canvassource#getcanvas');
