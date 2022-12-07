@@ -26,7 +26,7 @@ toc:
       - prewarm
       - clearPrewarmedResources
 
-  - name: Markers and controls
+  - name: マーカーとコントロール
     page: 'markers'
     description: |
       User interface elements that can be added to the map. The items in this section exist outside of the map's `canvas` element.

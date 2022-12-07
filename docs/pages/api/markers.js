@@ -1,5 +1,5 @@
 /*---
-title: Markers and controls
+title: マーカーとコントロール
 description: Add new user interface elements to the map with markers, popups, and controls.
 contentType: API
 order: 4

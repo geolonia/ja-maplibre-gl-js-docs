@@ -47,9 +47,9 @@ module.exports = [
         subnav: buildSubNav('プロパティとオプション')
     },
     {
-        title: 'Markers and controls',
+        title: 'マーカーとコントロール',
         path: '/maplibre-gl-js-docs/api/markers/',
-        subnav: buildSubNav('Markers and controls')
+        subnav: buildSubNav('マーカーとコントロール')
     },
 
     {
