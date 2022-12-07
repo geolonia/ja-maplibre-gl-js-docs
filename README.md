@@ -27,17 +27,6 @@ https://github.com/geolonia/ja-maplibre-gl-js が更新された場合は、 `gi
 
 ## 翻訳手順
 
+翻訳手順は以下をご覧ください。
 
-<!-- ## 編集ファイルと対応ページ
-### API
-- URL: https://geolonia.github.io/ja-maplibre-gl-js-docs/api/
-- ソースファイル:
-
-### プラグイン
-- URL: https://geolonia.github.io/ja-maplibre-gl-js-docs/api/
-- ソースファイル: https://github.com/geolonia/ja-maplibre-gl-js-docs/blob/main/docs/data/plugins.json
-
-### スタイル
-- URL: https://geolonia.github.io/ja-maplibre-gl-js-docs/style-spec/
-- ソースファイル: -->
-
+https://github.com/geolonia/ja-maplibre-gl-js/blob/main/README.md

@@ -31,7 +31,6 @@ jobs:
         git pull
         cd ..
         npm run build
-        npm run test
         git add -u
         git commit -m "Update MapLibre GL JS to v${{ steps.prepare.outputs.version_tag }}"
         git push --set-upstream origin v${{ steps.prepare.outputs.version_tag }}

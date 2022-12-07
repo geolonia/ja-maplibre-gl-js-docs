@@ -2,7 +2,8 @@
   "User Interface Plugins": {
     "mapbox-gl-accessibility": {
       "website": "https://github.com/mapbox/mapbox-gl-accessibility/",
-      "description": "Integrates with ARIA-compatible screen readers for users with visual impairments."
+      "_description": "Integrates with ARIA-compatible screen readers for users with visual impairments.",
+      "description": "視覚障がい者向けARIA対応スクリーンリーダーとの連携。"
     },
     "mapbox-gl-boundaries": {
       "website": "https://github.com/mapbox/mapbox-gl-boundaries",
