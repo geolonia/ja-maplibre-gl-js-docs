@@ -100,6 +100,9 @@
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/canvas-source</loc>
     </url>
     <url>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/center-on-symbol</loc>
+    </url>
+    <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/change-building-color-based-on-zoom-level</loc>
     </url>
     <url>
@@ -119,9 +122,6 @@
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/custom-marker-icons</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/center-on-symbol</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/custom-style-layer</loc>
@@ -215,9 +215,6 @@
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/live-geojson</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/live-update-feature</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/local-geojson</loc>
@@ -319,6 +316,9 @@
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/video-on-a-map</loc>
     </url>
     <url>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/visualize-population-density</loc>
+    </url>
+    <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/wms</loc>
     </url>
     <url>
@@ -340,13 +340,13 @@
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/other</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/root</loc>
-    </url>
-    <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/sources</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/sprite</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/root</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/transition</loc>
@@ -355,6 +355,6 @@
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/types</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/visualize-population-density</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/live-update-feature</loc>
     </url>
 </urlset>
