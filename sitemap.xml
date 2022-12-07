@@ -202,10 +202,10 @@
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/interactive-false</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/jump-to</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/language-switch</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/language-switch</loc>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/jump-to</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/line-across-180th-meridian</loc>
@@ -215,6 +215,9 @@
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/live-geojson</loc>
+    </url>
+    <url>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/live-update-feature</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/local-geojson</loc>
@@ -340,21 +343,18 @@
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/other</loc>
     </url>
     <url>
+        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/root</loc>
+    </url>
+    <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/sources</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/sprite</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/root</loc>
-    </url>
-    <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/transition</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/style-spec/types</loc>
-    </url>
-    <url>
-        <loc>https://maplibre.github.io/ja-maplibre-gl-js-docs/example/live-update-feature</loc>
     </url>
 </urlset>
