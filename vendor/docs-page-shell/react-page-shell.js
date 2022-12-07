@@ -558,9 +558,9 @@ var removeMarkdown = function (md, options) {
 
 function MetaTagger(props) {
   var title = titleGenerator_2(props.title, props.subsite, props.site).join(' | ');
-  var suffixedTitle = "".concat(title, " | MapLibre");
+  var suffixedTitle = "".concat(title, " | Geolonia");
   var preppedDescription = props.description.replace(/\s+/g, ' ');
-  var prodUrl = 'https://maplibre.org';
+  var prodUrl = 'https://docs.geolonia.com';
   if (props.pathname[0] !== '/') prodUrl += '/';
   prodUrl += props.pathname;
   var metaItems = [{

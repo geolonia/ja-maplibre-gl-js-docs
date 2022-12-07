@@ -26,7 +26,7 @@ const siteBasePath = '/ja-maplibre-gl-js-docs';
 module.exports = () => {
     const config = {
         siteBasePath: siteBasePath,
-        siteOrigin: 'https://maplibre.github.io',
+        siteOrigin: 'https://geolonia.github.io',
         pagesDirectory: `${__dirname}/docs/pages`,
         outputDirectory: path.join(__dirname, '_site'),
         browserslist: mapboxAssembly.browsersList,

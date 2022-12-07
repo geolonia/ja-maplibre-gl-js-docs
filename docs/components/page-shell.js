@@ -34,7 +34,7 @@ class PageShell extends React.Component {
         // redirect hashes on /style-spec/
         if (
             this.props.location.pathname ===
-                '/maplibre-gl-js-docs/style-spec/' &&
+                '/ja-maplibre-gl-js-docs/style-spec/' &&
             this.props.location.hash
         ) {
             if (redirectStyleSpec(this.props.location))
@@ -43,7 +43,7 @@ class PageShell extends React.Component {
 
         // redirect hashes on /api/
         if (
-            this.props.location.pathname === '/maplibre-gl-js-docs/api/' &&
+            this.props.location.pathname === '/ja-maplibre-gl-js-docs/api/' &&
             this.props.location.hash
         ) {
             if (redirectApiRef(this.props.location))
@@ -52,21 +52,29 @@ class PageShell extends React.Component {
     }
     renderCustomHeadings = () => {
         const { location, frontMatter } = this.props;
-
         const subSection = findParentPath(navigation, location.pathname);
-        if (subSection === '/maplibre-gl-js-docs/api/')
+        if (subSection === '/ja-maplibre-gl-js-docs/api/')
             return (
                 frontMatter.headings ||
-                apiNavigation.filter((f) => f.path === location.pathname)[0]
-                    .subnav
+                apiNavigation.filter((f) => {
+                    const geoloniaDocsPath = f.path.replace(
+                        '/maplibre-gl-js-docs/',
+                        '/ja-maplibre-gl-js-docs/'
+                    );
+                    return geoloniaDocsPath === location.pathname;
+                })[0].subnav
             );
-        else if (subSection === '/maplibre-gl-js-docs/style-spec/') {
+        else if (subSection === '/ja-maplibre-gl-js-docs/style-spec/') {
             return (
-                styleSpecNavigation.filter(
-                    (f) => f.path === location.pathname
-                )[0].subnav || frontMatter.headings
+                styleSpecNavigation.filter((f) => {
+                    const geoloniaDocsPath = f.path.replace(
+                        '/maplibre-gl-js-docs/',
+                        '/ja-maplibre-gl-js-docs/'
+                    );
+                    return geoloniaDocsPath === location.pathname;
+                })[0].subnav || frontMatter.headings
             );
-        } else if (subSection === '/maplibre-gl-js-docs/plugins/') {
+        } else if (subSection === '/ja-maplibre-gl-js-docs/plugins/') {
             const headings = Object.keys(plugins).reduce((arr, key) => {
                 arr.push({
                     slug: slug(key),
@@ -86,7 +94,7 @@ class PageShell extends React.Component {
             navigation,
             this.props.location.pathname
         );
-        if (subSection === '/maplibre-gl-js-docs/api/') return <Search />;
+        if (subSection === '/ja-maplibre-gl-js-docs/api/') return <Search />;
         else return undefined;
     };
     render() {
