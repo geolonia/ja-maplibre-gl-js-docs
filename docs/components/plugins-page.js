@@ -47,7 +47,7 @@ export default class Plugins extends React.Component {
                                                     href={plugin.website}
                                                 >
                                                     <IconText iconBefore="github">
-                                                        View on GitHub
+                                                        GitHub で見る
                                                     </IconText>
                                                 </a>
                                             </div>
@@ -61,7 +61,7 @@ export default class Plugins extends React.Component {
                                                     )}
                                                 >
                                                     <IconText iconBefore="code">
-                                                        View example
+                                                        サンプルを見る
                                                     </IconText>
                                                 </a>
                                             </div>

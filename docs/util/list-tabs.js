@@ -2,9 +2,6 @@ const tabOrder = {
     api: {
         title: 'API Reference'
     },
-    examples: {
-        title: 'Examples'
-    },
     plugins: {
         title: 'Plugins'
     },

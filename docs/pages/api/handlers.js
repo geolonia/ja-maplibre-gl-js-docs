@@ -7,7 +7,7 @@ layout: page
 language:
 - JavaScript
 products:
-- MapLibre GL JS
+- Geolonia Javascript API
 ---*/
 
 import React from 'react';
