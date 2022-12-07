@@ -1,5 +1,5 @@
 ---
-title: Light
+title: ライト
 id: light
 description: A style's light property provides global light source for that style.
 contentType: specification

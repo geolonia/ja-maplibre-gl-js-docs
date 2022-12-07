@@ -1,5 +1,5 @@
 ---
-title: Other
+title: その他
 id: other
 description: The value for any layout or paint property may be specified as a function.
 contentType: specification

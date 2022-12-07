@@ -1,5 +1,5 @@
 ---
-title: Layers
+title: レイヤー
 id: layers
 description: A style's layers property lists all of the layers available in that style.
 contentType: specification

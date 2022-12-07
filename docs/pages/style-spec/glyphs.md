@@ -1,5 +1,5 @@
 ---
-title: Glyphs
+title: グリフ
 id: glyphs
 description: A style's glyphs property provides a URL template for loading signed-distance-field glyph sets in PBF format.
 contentType: specification
