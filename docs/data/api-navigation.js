@@ -53,24 +53,24 @@ module.exports = [
     },
 
     {
-        title: 'Geography and geometry',
+        title: 'ジオグラフィーとジオメトリ',
         path: '/maplibre-gl-js-docs/api/geography/',
-        subnav: buildSubNav('Geography and geometry')
+        subnav: buildSubNav('ジオグラフィーとジオメトリ')
     },
     {
-        title: 'User interaction handlers',
+        title: 'ユーザーインタラクションハンドラ',
         path: '/maplibre-gl-js-docs/api/handlers/',
-        subnav: buildSubNav('User interaction handlers')
+        subnav: buildSubNav('ユーザーインタラクションハンドラ')
     },
     {
-        title: 'Sources',
+        title: 'ソース',
         path: '/maplibre-gl-js-docs/api/sources/',
-        subnav: buildSubNav('Sources')
+        subnav: buildSubNav('ソース')
     },
     {
-        title: 'Events',
+        title: 'イベント',
         path: '/maplibre-gl-js-docs/api/events/',
-        subnav: buildSubNav('Events')
+        subnav: buildSubNav('イベント')
     }
 ];
 

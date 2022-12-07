@@ -1,5 +1,5 @@
 /*---
-title: Geography and geometry
+title: ジオグラフィーとジオメトリ
 description: LngLat and LngLatBounds represent points and rectangles in geographic coordinates. Point represents points in screen coordinates.
 contentType: API
 order: 5

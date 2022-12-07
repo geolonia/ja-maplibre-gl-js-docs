@@ -1,5 +1,5 @@
 /*---
-title: User interaction handlers
+title: ユーザーインタラクションハンドラ
 description: Use handlers to add different kinds of interactivity to the map such as mouse interactivity, touch interactions, and other gestures.
 contentType: API
 order: 6

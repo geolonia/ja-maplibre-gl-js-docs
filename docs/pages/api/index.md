@@ -59,10 +59,10 @@ This documentation is divided into several sections:
 * [**Map**](https://maplibre.org/maplibre-gl-js-docs/api/map/). The `Map` object is the map on your page. It lets you access methods and properties for interacting with the map's style and layers, respond to events, and manipulate the user's perspective with the camera.
 * [**Properties and options**](https://maplibre.org/maplibre-gl-js-docs/api/properties/). This section describes MapLibre GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status.
 * [**Markers and controls**](https://maplibre.org/maplibre-gl-js-docs/api/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element.
-* [**Geography and geometry**](https://maplibre.org/maplibre-gl-js-docs/api/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries.
-* [**User interaction handlers**](https://maplibre.org/maplibre-gl-js-docs/api/handlers/). The items in this section relate to the ways in which the map responds to user input.
+* [**ジオグラフィーとジオメトリ**](https://maplibre.org/maplibre-gl-js-docs/api/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries.
+* [**ユーザーインタラクションハンドラ**](https://maplibre.org/maplibre-gl-js-docs/api/handlers/). The items in this section relate to the ways in which the map responds to user input.
 * [**Sources**](https://maplibre.org/maplibre-gl-js-docs/api/sources/). This section describes the source types MapLibre GL JS can handle besides the ones described in the [MapLibre Style Specification](https://maplibre.org/maplibre-gl-js-docs/style-spec/).
-* [**Events**](https://maplibre.org/maplibre-gl-js-docs/api/events/). This section describes the different types of events that MapLibre GL JS can raise.
+* [**イベント**](https://maplibre.org/maplibre-gl-js-docs/api/events/). This section describes the different types of events that MapLibre GL JS can raise.
 
 Each section describes classes or objects as well as their **properties**, **parameters**, **instance members**, and associated **events**. Many sections also include inline code examples and related resources.
 

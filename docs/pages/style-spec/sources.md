@@ -1,5 +1,5 @@
 ---
-title: Sources
+title: ソース
 id: sources
 description: Sources supply data to be shown on the map.
 contentType: specification

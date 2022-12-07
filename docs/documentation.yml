@@ -40,7 +40,7 @@ toc:
       - ScaleControl
       - FullscreenControl
 
-  - name: Geography and geometry
+  - name: ジオグラフィーとジオメトリ
     page: 'geography'
     description: |
       General utilities and types that relate to working with and manipulating geographic information or geometries.
@@ -53,7 +53,7 @@ toc:
       - MercatorCoordinate
       - EdgeInsets
 
-  - name: User interaction handlers
+  - name: ユーザーインタラクションハンドラ
     page: 'handlers'
     description: |
       Items related to the ways in which the map responds to user input.
@@ -67,7 +67,7 @@ toc:
       - TouchZoomRotateHandler
       - TouchPitchHandler
 
-  - name: Sources
+  - name: ソース
     page: 'sources'
     description: |
       The source types MapLibre GL JS can handle in addition to the ones described in the [MapLibre Style Specification](/maplibre-gl-js-docs/style-spec/).
@@ -78,7 +78,7 @@ toc:
       - CanvasSource
       - CanvasSourceOptions
 
-  - name: Events
+  - name: イベント
     page: 'events'
     description: |
       The different types of events that MapLibre GL JS can raise.
