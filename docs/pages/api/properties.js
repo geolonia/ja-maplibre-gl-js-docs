@@ -1,5 +1,5 @@
 /*---
-title: Properties and options
+title: プロパティとオプション
 description: Set the map's access token, test whether the browser support MapLibre GL JS, and more with `mapboxgl` properties, options, and utility functions.
 contentType: API
 order: 3

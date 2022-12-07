@@ -42,9 +42,9 @@ module.exports = [
         )
     },
     {
-        title: 'Properties and options',
+        title: 'プロパティとオプション',
         path: '/maplibre-gl-js-docs/api/properties/',
-        subnav: buildSubNav('Properties and options')
+        subnav: buildSubNav('プロパティとオプション')
     },
     {
         title: 'Markers and controls',

@@ -4,7 +4,7 @@ toc:
     children:
       - Map
 
-  - name: Properties and options
+  - name: プロパティとオプション
     page: 'properties'
     description: |
       MapLibre GL JS's global properties and options that you can access while initializing your map or accessing information about its status.
