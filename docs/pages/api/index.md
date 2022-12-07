@@ -1,5 +1,5 @@
 ---
-title: API Reference
+title: API リファレンス
 description: The MapLibre GL JS API documentation to render interactive maps from vector tiles and MapLibre styles.
 contentType: API
 navOrder: 1
@@ -9,7 +9,7 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- MapLibre GL JS
+- Geolonia Javascript API
 prependJs:
 - "import Quickstart from '../../components/quickstart';"
 - "import Example from '../../components/example';"
@@ -17,14 +17,14 @@ prependJs:
 - "import Copyable from '../../components/copyable';"
 - "import urls from '../../components/urls';"
 overviewHeader:
-  title: MapLibre GL JS
+  title: Geolonia Javascript API
   features:
     - "Custom map styles"
     - "Fast vector maps"
     - "Compatible with other MapLibre tools"
-  changelogLink: "https://github.com/maplibre/maplibre-gl-js/blob/main/CHANGELOG.md"
-  ghLink: "https://github.com/maplibre/maplibre-gl-js"
-  image: simple-map
+  changelogLink: "https://github.com/geolonia/ja-maplibre-gl-js/blob/main/CHANGELOG.md"
+  ghLink: "https://github.com/geolonia/ja-maplibre-gl-js"
+  # image: simple-map
   # version="" version is set dynamically in page-shell.js
 ---
 
