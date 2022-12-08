@@ -8,7 +8,7 @@ navOrder: 3
 layout: page # use the layout page
 hideFeedback: true # hide feedback from page
 products:
-- Geolonia Javascript API
+- Geolonia JavaScript API
 prependJs:
 - "import Plugins from '../../components/plugins-page';"
 ---

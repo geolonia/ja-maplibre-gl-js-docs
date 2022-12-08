@@ -1,4 +1,4 @@
-# Geolonia Javascript API Documentation
+# Geolonia JavaScript API Documentation
 
 ## Requirements
 

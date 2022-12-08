@@ -9,7 +9,7 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Geolonia Javascript API
+- Geolonia JavaScript API
 prependJs:
 - "import Quickstart from '../../components/quickstart';"
 - "import Example from '../../components/example';"
@@ -17,7 +17,7 @@ prependJs:
 - "import Copyable from '../../components/copyable';"
 - "import urls from '../../components/urls';"
 overviewHeader:
-  title: Geolonia Javascript API
+  title: Geolonia JavaScript API
   features:
     - "Custom map styles"
     - "Fast vector maps"

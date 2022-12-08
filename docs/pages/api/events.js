@@ -7,7 +7,7 @@ layout: page
 language:
 - JavaScript
 products:
-- Geolonia Javascript API
+- Geolonia JavaScript API
 ---*/
 
 import React from 'react';
