@@ -306,7 +306,7 @@ function Logo(props) {
   var logoStyles = {};
 
   if (mini) {
-    logoStyles.width = 30;
+    logoStyles.width = 37;
     logoStyles.height = 42;
     logoStyles.backgroundSize = '132px 42px';
   }
