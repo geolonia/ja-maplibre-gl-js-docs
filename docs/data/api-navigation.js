@@ -8,7 +8,7 @@ const apiFilterItems = require('../util/api-filter-items.js');
 module.exports = [
     {
         title: 'Introduction',
-        path: '/maplibre-gl-js-docs/api/',
+        path: '/ja-maplibre-gl-js-docs/api/',
         subnav: [
             {
                 title: 'Quickstart',
@@ -34,7 +34,7 @@ module.exports = [
     },
     {
         title: 'Map',
-        path: '/maplibre-gl-js-docs/api/map/',
+        path: '/ja-maplibre-gl-js-docs/api/map/',
         subnav: buildSubSubNav(
             apiFilterItems('Map class')[0].members.static[0], // Hack to resolve naming documentation.yml conflict b/w the "Map" class and the "Map" section
             'map',
@@ -43,33 +43,33 @@ module.exports = [
     },
     {
         title: 'プロパティとオプション',
-        path: '/maplibre-gl-js-docs/api/properties/',
+        path: '/ja-maplibre-gl-js-docs/api/properties/',
         subnav: buildSubNav('プロパティとオプション')
     },
     {
         title: 'マーカーとコントロール',
-        path: '/maplibre-gl-js-docs/api/markers/',
+        path: '/ja-maplibre-gl-js-docs/api/markers/',
         subnav: buildSubNav('マーカーとコントロール')
     },
 
     {
         title: 'ジオグラフィーとジオメトリ',
-        path: '/maplibre-gl-js-docs/api/geography/',
+        path: '/ja-maplibre-gl-js-docs/api/geography/',
         subnav: buildSubNav('ジオグラフィーとジオメトリ')
     },
     {
         title: 'ユーザーインタラクションハンドラ',
-        path: '/maplibre-gl-js-docs/api/handlers/',
+        path: '/ja-maplibre-gl-js-docs/api/handlers/',
         subnav: buildSubNav('ユーザーインタラクションハンドラ')
     },
     {
         title: 'ソース',
-        path: '/maplibre-gl-js-docs/api/sources/',
+        path: '/ja-maplibre-gl-js-docs/api/sources/',
         subnav: buildSubNav('ソース')
     },
     {
         title: 'イベント',
-        path: '/maplibre-gl-js-docs/api/events/',
+        path: '/ja-maplibre-gl-js-docs/api/events/',
         subnav: buildSubNav('イベント')
     }
 ];

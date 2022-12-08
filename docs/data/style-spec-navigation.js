@@ -47,15 +47,15 @@ function makeSubNav(entry, section, level) {
 }
 
 export const styleSpecNavigation = [
-    { title: 'Introduction', path: '/maplibre-gl-js-docs/style-spec/' },
+    { title: 'Introduction', path: '/ja-maplibre-gl-js-docs/style-spec/' },
     {
         title: 'ルート',
-        path: '/maplibre-gl-js-docs/style-spec/root/',
+        path: '/ja-maplibre-gl-js-docs/style-spec/root/',
         subnav: makeSubNav(ref.$root, null, 2)
     },
     {
         title: 'Sources',
-        path: '/maplibre-gl-js-docs/style-spec/sources/',
+        path: '/ja-maplibre-gl-js-docs/style-spec/sources/',
         subnav: [
             {
                 text: 'vector',
@@ -97,7 +97,7 @@ export const styleSpecNavigation = [
     },
     {
         title: 'レイヤー',
-        path: '/maplibre-gl-js-docs/style-spec/layers/',
+        path: '/ja-maplibre-gl-js-docs/style-spec/layers/',
         subnav: layerTypes.reduce((arr, type) => {
             arr.push({
                 text: type,
@@ -114,7 +114,7 @@ export const styleSpecNavigation = [
     },
     {
         title: 'エクスプレッション',
-        path: '/maplibre-gl-js-docs/style-spec/expressions/',
+        path: '/ja-maplibre-gl-js-docs/style-spec/expressions/',
         subnav: groupedExpressions.reduce((arr, group) => {
             arr.push({
                 text: group.name,
@@ -136,7 +136,7 @@ export const styleSpecNavigation = [
     },
     {
         title: '型',
-        path: '/maplibre-gl-js-docs/style-spec/types/',
+        path: '/ja-maplibre-gl-js-docs/style-spec/types/',
         subnav: [
             {
                 text: 'Color',
@@ -177,25 +177,25 @@ export const styleSpecNavigation = [
     },
     {
         title: 'スプライト',
-        path: '/maplibre-gl-js-docs/style-spec/sprite/'
+        path: '/ja-maplibre-gl-js-docs/style-spec/sprite/'
     },
     {
         title: 'グリフ',
-        path: '/maplibre-gl-js-docs/style-spec/glyphs/'
+        path: '/ja-maplibre-gl-js-docs/style-spec/glyphs/'
     },
     {
         title: 'トランジション',
-        path: '/maplibre-gl-js-docs/style-spec/transition/',
+        path: '/ja-maplibre-gl-js-docs/style-spec/transition/',
         subnav: makeSubNav(ref.transition, null, 2)
     },
     {
         title: 'ライト',
-        path: '/maplibre-gl-js-docs/style-spec/light/',
+        path: '/ja-maplibre-gl-js-docs/style-spec/light/',
         subnav: makeSubNav(ref.light, null, 2)
     },
     {
         title: 'その他',
-        path: '/maplibre-gl-js-docs/style-spec/other/',
+        path: '/ja-maplibre-gl-js-docs/style-spec/other/',
         tag: 'legacy',
         subnav: [
             {

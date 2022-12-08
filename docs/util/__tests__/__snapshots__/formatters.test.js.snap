@@ -4,7 +4,7 @@ exports[`formatType expression 1`] = `
 <span
   dangerouslySetInnerHTML={
     Object {
-      "__html": "<a href=\\"/maplibre-gl-js-docs/api/geography/#lnglatlike\\">LngLatLike</a>?",
+      "__html": "<a href=\\"/ja-maplibre-gl-js-docs/api/geography/#lnglatlike\\">LngLatLike</a>?",
     }
   }
 />
@@ -25,7 +25,7 @@ exports[`toHtml default 1`] = `
   dangerouslySetInnerHTML={
     Object {
       "__html": "<p>Fired when the user cancels a \\"box zoom\\" interaction, or when the bounding box does not meet the minimum size threshold.
-See <a href=\\"/maplibre-gl-js-docs/api/handlers/#boxzoomhandler\\">BoxZoomHandler</a>.</p>
+See <a href=\\"/ja-maplibre-gl-js-docs/api/handlers/#boxzoomhandler\\">BoxZoomHandler</a>.</p>
 ",
     }
   }
@@ -37,8 +37,8 @@ exports[`toHtml inline 1`] = `
   dangerouslySetInnerHTML={
     Object {
       "__html": "Fired when the user cancels a \\"box zoom\\" interaction, or when the bounding box does not meet the minimum size threshold.
-See 
-<a href=\\"/maplibre-gl-js-docs/api/handlers/#boxzoomhandler\\">BoxZoomHandler</a>
+See
+<a href=\\"/ja-maplibre-gl-js-docs/api/handlers/#boxzoomhandler\\">BoxZoomHandler</a>
 .
 ",
     }
