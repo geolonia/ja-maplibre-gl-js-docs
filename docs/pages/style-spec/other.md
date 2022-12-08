@@ -1,7 +1,8 @@
 ---
 title: その他
 id: other
-description: The value for any layout or paint property may be specified as a function.
+# description: The value for any layout or paint property may be specified as a function.
+description: レイアウトやペイントのプロパティは、関数として値を指定することができます。
 contentType: specification
 order: 11
 layout: page

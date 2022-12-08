@@ -1,6 +1,6 @@
 /*---
 title: ソース
-description: Sources specify the geographic features to be rendered on the map. Source objects may be obtained from Map#getSource.
+description: ソースは、地図上にレンダリングされる地理的な特徴を指定します。ソースオブジェクトは Map#getSource から取得することができる。
 contentType: API
 order: 7
 layout: page

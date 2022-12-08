@@ -1,6 +1,6 @@
 /*---
 title: イベント
-description: Map (and some other classes) emit events in response to user interactions or changes in state. Evented is the interface used to bind and unbind listeners for these events.
+description: Map（と他のいくつかのクラス）は、ユーザとのインタラクションや状態の変化に応じてイベントを発生させます。Evented は、これらのイベントのリスナーをバインドしたり、アンバインドしたりするために使われるインターフェースです。
 contentType: API
 order: 8
 layout: page

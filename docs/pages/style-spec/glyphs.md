@@ -1,7 +1,8 @@
 ---
 title: グリフ
 id: glyphs
-description: A style's glyphs property provides a URL template for loading signed-distance-field glyph sets in PBF format.
+# description: A style's glyphs property provides a URL template for loading signed-distance-field glyph sets in PBF format.
+description: スタイルのglyphsプロパティには、PBF形式の符号付き距離フィールドグリフセットを読み込むためのURLテンプレートが用意されています。
 contentType: specification
 order: 6
 layout: page

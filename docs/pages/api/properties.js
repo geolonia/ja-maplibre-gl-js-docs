@@ -1,6 +1,6 @@
 /*---
 title: プロパティとオプション
-description: Set the map's access token, test whether the browser support MapLibre GL JS, and more with `mapboxgl` properties, options, and utility functions.
+description: ブラウザが Geolonia JavaScript API をサポートしているかどうかをテストしたり、その他にも `geolonia` プロパティ、オプション、ユーティリティ関数を使用することができます。
 contentType: API
 order: 3
 layout: page

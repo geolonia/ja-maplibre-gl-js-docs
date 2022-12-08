@@ -30,8 +30,6 @@ overviewHeader:
 ---
 このドキュメントは、 [maplibre-gl-js-docs](https://github.com/maplibre/maplibre-gl-js-docs) を、フォークしカスタマイズして作成しています。翻訳のソースとなる [ja-maplibre-gl-js](https://github.com/geolonia/ja-maplibre-gl-js) は、GitHubで公開しています。どなたでもご自由にご活用ください。翻訳の貢献は歓迎です。
 
-Thanks to [MapLibre](https://maplibre.org/), and the contributors for providing the original documentation.
-
 <!-- MapLibre GL JS is a JavaScript library that uses WebGL to render interactive maps from vector tiles and [MapLibre styles](https://maplibre.org/maplibre-gl-js-docs/style-spec/). It is part of the [MapLibre GL ecosystem](https://github.com/maplibre). -->
 
 

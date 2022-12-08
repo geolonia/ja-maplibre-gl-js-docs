@@ -6,8 +6,10 @@ toc:
 
   - name: プロパティとオプション
     page: 'properties'
+    # description: |
+    #   MapLibre GL JS's global properties and options that you can access while initializing your map or accessing information about its status.
     description: |
-      MapLibre GL JS's global properties and options that you can access while initializing your map or accessing information about its status.
+      Geolonia JavaScript API のグローバルプロパティとオプションは、マップを初期化したり、マップの状態に関する情報にアクセスしたりする際に利用できます。
     children:
       - workerCount
       - maxParallelImageRequests
@@ -28,8 +30,10 @@ toc:
 
   - name: マーカーとコントロール
     page: 'markers'
+    # description: |
+    #   User interface elements that can be added to the map. The items in this section exist outside of the map's `canvas` element.
     description: |
-      User interface elements that can be added to the map. The items in this section exist outside of the map's `canvas` element.
+      マップに追加できるユーザーインターフェース要素です。このセクションの項目は、マップの `canvas` 要素の外側に存在します。
     children:
       - Marker
       - Popup
@@ -42,8 +46,10 @@ toc:
 
   - name: ジオグラフィーとジオメトリ
     page: 'geography'
+    # description: |
+    #   General utilities and types that relate to working with and manipulating geographic information or geometries.
     description: |
-      General utilities and types that relate to working with and manipulating geographic information or geometries.
+      地理情報またはジオメトリの操作に関連する一般的なユーティリティとタイプ。
     children:
       - LngLat
       - LngLatLike
@@ -55,8 +61,10 @@ toc:
 
   - name: ユーザーインタラクションハンドラ
     page: 'handlers'
+    # description: |
+    #   Items related to the ways in which the map responds to user input.
     description: |
-      Items related to the ways in which the map responds to user input.
+      ユーザーの入力に対するマップの応答方法に関する項目です。
     children:
       - BoxZoomHandler
       - ScrollZoomHandler
@@ -69,8 +77,10 @@ toc:
 
   - name: ソース
     page: 'sources'
+    # description: |
+    #   The source types MapLibre GL JS can handle in addition to the ones described in the [MapLibre Style Specification](/maplibre-gl-js-docs/style-spec/).
     description: |
-      The source types MapLibre GL JS can handle in addition to the ones described in the [MapLibre Style Specification](/maplibre-gl-js-docs/style-spec/).
+      Geolonia JavaScript APIで扱えるソースの種類は、スタイル仕様に記載されているものに加え、以下のものがあります。
     children:
       - GeoJSONSource
       - VideoSource
@@ -80,10 +90,14 @@ toc:
 
   - name: イベント
     page: 'events'
-    description: |
-      The different types of events that MapLibre GL JS can raise.
+    # description: |
+    #   The different types of events that MapLibre GL JS can raise.
 
-      You can also find additional event documentation for: [`Map`](/maplibre-gl-js-docs/api/map/#map-events), [`Marker`](/maplibre-gl-js-docs/api/markers/#marker-events), [`Popup`](/maplibre-gl-js-docs/api/markers/#popup-events), and [`GeolocationControl`](/maplibre-gl-js-docs/api/markers/#geolocatecontrol-events).
+    #   You can also find additional event documentation for: [`Map`](/maplibre-gl-js-docs/api/map/#map-events), [`Marker`](/maplibre-gl-js-docs/api/markers/#marker-events), [`Popup`](/maplibre-gl-js-docs/api/markers/#popup-events), and [`GeolocationControl`](/maplibre-gl-js-docs/api/markers/#geolocatecontrol-events).
+    description: |
+      MapLibre GL JS が発生させることができる様々なタイプのイベントです。
+
+      また、追加のイベントのドキュメントを見つけることができます。`Map`, `Marker`, `Popup`, そして `GeolocationControl` のイベントに関する補足説明もあります。
     children:
       - Evented
       - MapMouseEvent

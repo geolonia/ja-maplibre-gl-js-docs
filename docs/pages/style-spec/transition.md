@@ -1,7 +1,8 @@
 ---
 title: トランジション
 id: transition
-description: A transition property controls timing for the interpolation between a transitionable style property's previous value and new value.
+# description: A transition property controls timing for the interpolation between a transitionable style property's previous value and new value.
+description: 遷移プロパティは、遷移可能なスタイルプロパティの前の値と新しい値との間の補間のタイミングを制御します。
 contentType: specification
 order: 7
 layout: page

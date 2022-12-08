@@ -1,7 +1,6 @@
 /*---
 title: ジオグラフィーとジオメトリ
-description: LngLat and LngLatBounds represent points and rectangles in geographic coordinates. Point represents points in screen coordinates.
-contentType: API
+description: LngLat と LngLatBounds は、地理的な座標で点と矩形を表す。Point はスクリーン座標で点を表します。
 order: 5
 layout: page
 language:

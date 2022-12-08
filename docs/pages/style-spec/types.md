@@ -1,7 +1,8 @@
 ---
 title: 型
 id: types
-description: A MapLibre style contains values of various types, most commonly as values for the style properties of a layer.
+# description: A MapLibre style contains values of various types, most commonly as values for the style properties of a layer.
+description: スタイルは様々なタイプの値を含みますが、最も一般的なのはレイヤーのスタイル・プロパティに対する値になります。
 contentType: specification
 order: 9
 layout: page

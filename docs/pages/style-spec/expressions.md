@@ -1,7 +1,8 @@
 ---
 title: エクスプレッション
 id: expressions
-description: An expression defines a formula for computing the value of the property using the operators described in this section.
+# description: An expression defines a formula for computing the value of the property using the operators described in this section.
+description: エクスプレッションは、このセクションで説明した演算子を使用して、プロパティの値を計算するための式を定義します。
 contentType: specification
 order: 10
 layout: page

@@ -1,6 +1,6 @@
 /*---
 title: ユーザーインタラクションハンドラ
-description: Use handlers to add different kinds of interactivity to the map such as mouse interactivity, touch interactions, and other gestures.
+description: ハンドラを使用して、マウス操作、タッチ操作、その他のジェスチャーなど、さまざまな種類のインタラクティビティをマップに追加することができます。
 contentType: API
 order: 6
 layout: page

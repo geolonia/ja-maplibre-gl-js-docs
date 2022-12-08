@@ -1,6 +1,7 @@
 ---
 title: プラグイン
-description: Extend your MapLibre GL JS map with plugins.
+# description: Extend your MapLibre GL JS map with plugins.
+description: Geolonia Maps をプラグインで拡張する。
 contentType: example
 language:
 - JavaScript

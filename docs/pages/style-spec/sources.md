@@ -1,7 +1,8 @@
 ---
 title: ソース
 id: sources
-description: Sources supply data to be shown on the map.
+# description: Sources supply data to be shown on the map.
+description: 地図に表示するデータの供給元。
 contentType: specification
 order: 4
 layout: page

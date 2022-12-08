@@ -1,7 +1,8 @@
 ---
 title: スプライト
 id: sprite
-description: A style's sprite property supplies a URL template for loading small images to use in rendering background-pattern, fill-pattern, line-pattern,fill-extrusion-pattern and icon-image style properties.
+# description: A style's sprite property supplies a URL template for loading small images to use in rendering background-pattern, fill-pattern, line-pattern,fill-extrusion-pattern and icon-image style properties.
+description: スタイルの sprite 特性は、background-pattern, fill-pattern, line-pattern, fill-extrusion-pattern および icon-image スタイル特性の描画に使用する小さな画像を読み込むための URL テンプレートを提供します。
 contentType: specification
 order: 5
 layout: page

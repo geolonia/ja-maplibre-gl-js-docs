@@ -1,7 +1,8 @@
 ---
 title: ライト
 id: light
-description: A style's light property provides global light source for that style.
+# description: A style's light property provides global light source for that style.
+description: スタイルのlightプロパティは、そのスタイルのグローバル光源を提供します。
 contentType: specification
 order: 3
 layout: page

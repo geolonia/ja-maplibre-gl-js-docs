@@ -1,7 +1,8 @@
 ---
 title: ルート
 id: root
-description: Root level properties of a MapLibre style specify the map's layers, tile sources and other resources, and default values for the initial camera position when not specified elsewhere.
+# description: Root level properties of a MapLibre style specify the map's layers, tile sources and other resources, and default values for the initial camera position when not specified elsewhere.
+description: MapLibre スタイルのルートレベルのプロパティは、マップのレイヤー、タイルソース、その他のリソースを指定し、他に指定がない場合は、カメラの初期位置のデフォルト値を指定するものです。
 contentType: specification
 order: 2
 layout: page

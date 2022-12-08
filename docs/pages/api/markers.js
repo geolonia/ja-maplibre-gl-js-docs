@@ -1,6 +1,6 @@
 /*---
 title: マーカーとコントロール
-description: Add new user interface elements to the map with markers, popups, and controls.
+description: マーカー、ポップアップ、コントロールなどの新しいユーザーインターフェース要素を地図に追加します。
 contentType: API
 order: 4
 layout: page

@@ -1,6 +1,6 @@
 /*---
 title: マップ
-description: The Map object represents the map on your page. It exposes methods and properties that enable you to programmatically change the map, and fires events as users interact with it.
+description: Map オブジェクトは、ページ上のマップを表します。プログラムによってマップを変更するためのメソッドとプロパティを公開し、ユーザーがマップを操作するときにイベントを発生させます。
 contentType: API
 order: 2
 layout: page

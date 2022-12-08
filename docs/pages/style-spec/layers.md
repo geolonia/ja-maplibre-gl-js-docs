@@ -1,7 +1,8 @@
 ---
 title: レイヤー
 id: layers
-description: A style's layers property lists all of the layers available in that style.
+# description: A style's layers property lists all of the layers available in that style.
+description: スタイルのレイヤープロパティには、そのスタイルで利用可能なすべてのレイヤーがリストアップされます。
 contentType: specification
 order: 8
 layout: page
