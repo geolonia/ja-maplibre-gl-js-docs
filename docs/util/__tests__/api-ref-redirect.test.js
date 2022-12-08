@@ -11,59 +11,63 @@ it(`api-ref-redirect`, () => {
         redirect({
             hash: '#map'
         })
-    ).toEqual('/maplibre-gl-js-docs/api/map/#map');
+    ).toEqual('/ja-maplibre-gl-js-docs/api/map/#map');
 
     expect(
         redirect({
             hash: '#map#scrollzoom'
         })
-    ).toEqual('/maplibre-gl-js-docs/api/map/#map#scrollzoom');
+    ).toEqual('/ja-maplibre-gl-js-docs/api/map/#map#scrollzoom');
 
     expect(
         redirect({
             hash: '#map.event:mouseover'
         })
-    ).toEqual('/maplibre-gl-js-docs/api/map/#map.event:mouseover');
+    ).toEqual('/ja-maplibre-gl-js-docs/api/map/#map.event:mouseover');
 
     expect(
         redirect({
             hash: '#lnglat'
         })
-    ).toEqual('/maplibre-gl-js-docs/api/geography/#lnglat');
+    ).toEqual('/ja-maplibre-gl-js-docs/api/geography/#lnglat');
 
     expect(
         redirect({
             hash: '#icontrol'
         })
-    ).toEqual('/maplibre-gl-js-docs/api/markers/#icontrol');
+    ).toEqual('/ja-maplibre-gl-js-docs/api/markers/#icontrol');
 
     expect(
         redirect({
             hash: '#icontrol#getdefaultposition'
         })
-    ).toEqual('/maplibre-gl-js-docs/api/markers/#icontrol#getdefaultposition');
+    ).toEqual(
+        '/ja-maplibre-gl-js-docs/api/markers/#icontrol#getdefaultposition'
+    );
 
     expect(
         redirect({
             hash: '#canvassource#getcanvas'
         })
-    ).toEqual('/maplibre-gl-js-docs/api/sources/#canvassource#getcanvas');
+    ).toEqual('/ja-maplibre-gl-js-docs/api/sources/#canvassource#getcanvas');
 
     expect(
         redirect({
             hash: '#mapwheelevent'
         })
-    ).toEqual('/maplibre-gl-js-docs/api/events/#mapwheelevent');
+    ).toEqual('/ja-maplibre-gl-js-docs/api/events/#mapwheelevent');
 
     expect(
         redirect({
             hash: '#mapwheelevent#type'
         })
-    ).toEqual('/maplibre-gl-js-docs/api/events/#mapwheelevent#type');
+    ).toEqual('/ja-maplibre-gl-js-docs/api/events/#mapwheelevent#type');
 
     expect(
         redirect({
             hash: '#clearprewarmedresources'
         })
-    ).toEqual('/maplibre-gl-js-docs/api/properties/#clearprewarmedresources');
+    ).toEqual(
+        '/ja-maplibre-gl-js-docs/api/properties/#clearprewarmedresources'
+    );
 });
