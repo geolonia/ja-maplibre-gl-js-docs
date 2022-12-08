@@ -1,6 +1,7 @@
 ---
 title: API リファレンス
-description: The MapLibre GL JS API documentation to render interactive maps from vector tiles and MapLibre styles.
+# description: The MapLibre GL JS API documentation to render interactive maps from vector tiles and MapLibre styles.
+description: Geolonia JavaScript API ドキュメントは、ベクトルタイルとスタイルからインタラクティブなマップをレンダリングします。
 contentType: API
 navOrder: 1
 order: 1
@@ -10,28 +11,31 @@ language:
 - JavaScript
 products:
 - Geolonia JavaScript API
-prependJs:
-- "import Quickstart from '../../components/quickstart';"
-- "import Example from '../../components/example';"
-- "import SimpleMapHtml from '../example/simple-map.html';"
-- "import Copyable from '../../components/copyable';"
-- "import urls from '../../components/urls';"
+# prependJs:
+# - "import Quickstart from '../../components/quickstart';"
+# - "import Example from '../../components/example';"
+# - "import SimpleMapHtml from '../example/simple-map.html';"
+# - "import Copyable from '../../components/copyable';"
+# - "import urls from '../../components/urls';"
 overviewHeader:
   title: Geolonia JavaScript API
   features:
-    - "Custom map styles"
-    - "Fast vector maps"
-    - "Compatible with other MapLibre tools"
+    - "カスタムマップスタイル"
+    - "高速なベクトルタイルを使った地図"
+    - "MapLibre GL JS との互換性"
   changelogLink: "https://github.com/geolonia/ja-maplibre-gl-js/blob/main/CHANGELOG.md"
   ghLink: "https://github.com/geolonia/ja-maplibre-gl-js"
   # image: simple-map
   # version="" version is set dynamically in page-shell.js
 ---
+このドキュメントは、 [maplibre-gl-js-docs](https://github.com/maplibre/maplibre-gl-js-docs) を、フォークしカスタマイズして作成しています。翻訳のソースとなる [ja-maplibre-gl-js](https://github.com/geolonia/ja-maplibre-gl-js) は、GitHubで公開しています。どなたでもご自由にご活用ください。翻訳の貢献は歓迎です。
 
-MapLibre GL JS is a JavaScript library that uses WebGL to render interactive maps from vector tiles and [MapLibre styles](https://maplibre.org/maplibre-gl-js-docs/style-spec/). It is part of the [MapLibre GL ecosystem](https://github.com/maplibre).
+Thanks to [MapLibre](https://maplibre.org/), and the contributors for providing the original documentation.
+
+<!-- MapLibre GL JS is a JavaScript library that uses WebGL to render interactive maps from vector tiles and [MapLibre styles](https://maplibre.org/maplibre-gl-js-docs/style-spec/). It is part of the [MapLibre GL ecosystem](https://github.com/maplibre). -->
 
 
-## Quickstart
+<!-- ## Quickstart
 
 {{
     <Example
@@ -49,25 +53,33 @@ MapLibre GL JS is a JavaScript library that uses WebGL to render interactive map
 
 {{
 <Quickstart />
-}}
+}} -->
 
 
-## Reading this documentation
+<!-- ## Reading this documentation -->
+## このドキュメントについて
 
-This documentation is divided into several sections:
+<!-- This documentation is divided into several sections: -->
 
-* [**Map**](https://maplibre.org/maplibre-gl-js-docs/api/map/). The `Map` object is the map on your page. It lets you access methods and properties for interacting with the map's style and layers, respond to events, and manipulate the user's perspective with the camera.
-* [**Properties and options**](https://maplibre.org/maplibre-gl-js-docs/api/properties/). This section describes MapLibre GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status.
-* [**Markers and controls**](https://maplibre.org/maplibre-gl-js-docs/api/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element.
-* [**ジオグラフィーとジオメトリ**](https://maplibre.org/maplibre-gl-js-docs/api/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries.
-* [**ユーザーインタラクションハンドラ**](https://maplibre.org/maplibre-gl-js-docs/api/handlers/). The items in this section relate to the ways in which the map responds to user input.
-* [**Sources**](https://maplibre.org/maplibre-gl-js-docs/api/sources/). This section describes the source types MapLibre GL JS can handle besides the ones described in the [MapLibre Style Specification](https://maplibre.org/maplibre-gl-js-docs/style-spec/).
-* [**イベント**](https://maplibre.org/maplibre-gl-js-docs/api/events/). This section describes the different types of events that MapLibre GL JS can raise.
+<!-- * [**Map**](https://maplibre.org/maplibre-gl-js-docs/api/map/). The `Map` object is the map on your page. It lets you access methods and properties for interacting with the map's style and layers, respond to events, and manipulate the user's perspective with the camera. -->
+* [**マップ**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/) `Map` オブジェクトはページ上の地図です。マップのスタイルやレイヤーを操作するためのメソッドやプロパティにアクセスしたり、イベントに応答したり、カメラでユーザーの視点を操作したりすることができます。
+<!-- * [**Properties and options**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/properties/). This section describes MapLibre GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status. -->
+* [**プロパティとオプション**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/properties/) このセクションでは、マップの初期化やマップの状態に関する情報にアクセスする際に必要となる、グローバルプロパティとオプションについて説明します。
+<!-- * [**Markers and controls**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element. -->
+* [**マーカーとコントロール**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/markers/) このセクションでは、マップに追加できるユーザーインターフェイスの要素について説明します。このセクションの項目は、マップの `canvas` 要素の外側に存在します。
+<!-- * [**ジオグラフィーとジオメトリ**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries. -->
+* [**ジオグラフィーとジオメトリ**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/geography/) このセクションでは、地理情報またはジオメトリの操作に関連する一般的なユーティリティとタイプを紹介します。
+<!-- * [**ユーザーインタラクションハンドラ**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/handlers/). The items in this section relate to the ways in which the map responds to user input. -->
+* [**ユーザーインタラクションハンドラ**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/handlers/) このセクションの項目は、ユーザーの入力にマップが反応する方法に関するものです。
+<!-- * [**Sources**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/sources/). This section describes the source types MapLibre GL JS can handle besides the ones described in the [MapLibre Style Specification](https://geolonia.github.io/ja-maplibre-gl-js-docs/style-spec/). -->
+* [**ソース**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/sources/) 扱えるソースタイプについて [スタイル仕様](https://geolonia.github.io/ja-maplibre-gl-js-docs/style-spec/)に記載されているもの以外を説明します。
+<!-- * [**イベント**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/events/). This section describes the different types of events that MapLibre GL JS can raise. -->
+* [**イベント**](https://geolonia.github.io/ja-maplibre-gl-js-docs/api/events/) このセクションでは、Geolonia Javascript API が発生させることができる様々な種類のイベントについて説明します。
 
-Each section describes classes or objects as well as their **properties**, **parameters**, **instance members**, and associated **events**. Many sections also include inline code examples and related resources.
+<!-- Each section describes classes or objects as well as their **properties**, **parameters**, **instance members**, and associated **events**. Many sections also include inline code examples and related resources. -->
 
-In the examples, we use vector tiles from [MapTiler](https://maptiler.com). Get your own API key if you want to use MapTiler data in your project.
-
+<!-- In the examples, we use vector tiles from [MapTiler](https://maptiler.com). Get your own API key if you want to use MapTiler data in your project. -->
+<!--
 ## CSP Directives
 
 As a mitigation for Cross-Site Scripting and other types of web security vulnerabilities, you may use a [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/Security/CSP) to specify security policies for your website. If you do, MapLibre GL JS requires the following CSP directives:
@@ -127,4 +139,4 @@ You can view a listing of all the files in the MapLibre GL JS package by appendi
 | Use at least `1.14.x` | [https://unpkg.com/maplibre-gl@^1.14/dist/maplibre-gl.js](https://unpkg.com/maplibre-gl@^1.14/dist/maplibre-gl.js) | [https://unpkg.com/maplibre-gl@^1.14/dist/maplibre-gl.css](https://unpkg.com/maplibre-gl@^1.14/dist/maplibre-gl.css) |
 | Return metadata as JSON on `latest` to review `lastModified` & `size`. | [https://unpkg.com/maplibre-gl/dist/maplibre-gl.js?meta](https://unpkg.com/maplibre-gl/dist/maplibre-gl.js?meta) | [https://unpkg.com/maplibre-gl/dist/maplibre-gl.css?meta](https://unpkg.com/maplibre-gl/dist/maplibre-gl.css?meta)  |
 | `CHANGELOG.md` for `latest` | [https://unpkg.com/browse/maplibre-gl/CHANGELOG.md](https://unpkg.com/browse/maplibre-gl/CHANGELOG.md) |  |
-| `LICENSE.txt` for `latest` | [https://unpkg.com/browse/maplibre-gl/LICENSE.txt](https://unpkg.com/browse/maplibre-gl/LICENSE.txt) |  |
+| `LICENSE.txt` for `latest` | [https://unpkg.com/browse/maplibre-gl/LICENSE.txt](https://unpkg.com/browse/maplibre-gl/LICENSE.txt) |  | -->
