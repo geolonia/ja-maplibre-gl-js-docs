@@ -286,13 +286,22 @@ There is an important difference between the way that zoom functions render for 
         ]
     }
 }
+
+// ## Other filter
+
+
+// <Note theme="warning">
+// In previous versions of the style specification, [filters](/ja-maplibre-gl-js-docs/style-spec/layers/#filter) were defined using the deprecated syntax documented below. Though filters defined with this syntax will continue to work, we recommend using the more flexible [expression](/ja-maplibre-gl-js-docs/style-spec/expressions/) syntax instead. Expression syntax and the deprecated syntax below cannot be mixed in a single filter definition.
+// </Note\>
+
 ```
 
 
-## Other filter
+## 他のフィルター
+
 
 {{<Note theme="warning">}}
-In previous versions of the style specification, [filters](/ja-maplibre-gl-js-docs/style-spec/layers/#filter) were defined using the deprecated syntax documented below. Though filters defined with this syntax will continue to work, we recommend using the more flexible [expression](/ja-maplibre-gl-js-docs/style-spec/expressions/) syntax instead. Expression syntax and the deprecated syntax below cannot be mixed in a single filter definition.
+スタイル仕様の以前のバージョンでは、[フィルター](/ja-maplibre-gl-js-docs/style-spec/layers/#filter)は以下に示す非推奨の構文で定義されていました。この構文で定義されたフィルターも引き続き使用できますが、より柔軟な [エクスプレッション](/ja-maplibre-gl-js-docs/style-spec/expressions/) 構文を代わりに使用することをお勧めします。式の構文と以下の非推奨の構文は、ひとつのフィルター定義に混在させることはできません。
 {{</Note>}}
 
 ### Existential filters
