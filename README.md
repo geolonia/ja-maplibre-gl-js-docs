@@ -20,6 +20,8 @@ git submodule update --init # initialize maplibre-gl-js git submodule
 npm start
 ```
 
+http://localhost:8080/ja-maplibre-gl-js-docs/ にアクセスすると、ドキュメントサイトが表示されます。
+
 ### 翻訳の更新
 
 https://github.com/geolonia/ja-maplibre-gl-js が更新された場合は、 `git submodule update --remote` を実行して、ローカルの `maplibre-gl-js` を更新する。
