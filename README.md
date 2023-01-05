@@ -24,7 +24,7 @@ http://localhost:8080/ja-maplibre-gl-js-docs/ にアクセスすると、ドキ�
 
 ### 翻訳の更新
 
-https://github.com/geolonia/ja-maplibre-gl-js が更新された場合は、 `npm run update-translation` を実行して、ローカルの `maplibre-gl-js` を更新する。
+https://github.com/geolonia/ja-maplibre-gl-js が更新された場合は、 `npm run update` を実行して、ローカルの `maplibre-gl-js` を更新する。
 再度、`npm start` すると翻訳が反映されます。
 
 ## 翻訳手順
